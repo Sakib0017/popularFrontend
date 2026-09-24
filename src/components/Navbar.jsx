@@ -22,7 +22,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-24">
             <div className="flex-shrink-0">
               <Link to="/" className="block">
-                <img src="/assets/PMCH.gif" alt="Popular Medical College Logo" className="h-14 md:h-16 w-auto" />
+               
               </Link>
             </div>
             <div className="hidden xl:flex items-center space-x-4 lg:space-x-5 text-[13px] font-extrabold tracking-tight text-[#003B46]">
