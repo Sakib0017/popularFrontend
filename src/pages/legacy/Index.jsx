@@ -17,7 +17,7 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
     <div class="absolute inset-0 z-0">
       <img 
         src="/assets/bg.jpeg" 
-        alt="Popular Medical College" 
+        alt=" Medical College" 
         class="h-full w-full object-cover object-center scale-100 transition-transform duration-[10000ms] hover:scale-105"
       />
       <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/60 to-transparent"></div>
@@ -33,7 +33,7 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
         </div>
 
         <p class="text-lg leading-relaxed text-slate-50 md:text-xl font-light">
-          Popular Medical College can boast of a faculty which certainly is well reputed and respected nationally and internationally for their devotion and professionalism. It is also important to point out that many of the faculty members are actively involved with postgraduate teaching, learning and examination programs in addition to their undergraduate responsibilities.
+           Medical College can boast of a faculty which certainly is well reputed and respected nationally and internationally for their devotion and professionalism. It is also important to point out that many of the faculty members are actively involved with postgraduate teaching, learning and examination programs in addition to their undergraduate responsibilities.
         </p>
 
         <div class="flex flex-wrap gap-4 pt-2">
@@ -64,15 +64,15 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
           
 
           <h2 class="text-4xl md:text-5xl font-bold text-slate-900 leading-tight tracking-tight">
-            Popular Medical College 
+             Medical College 
           </h2>
           
           
           <div class="text-slate-900 leading-relaxed text-lg max-w-xl space-y-4 font-normal">
             <p>
-              Popular Group is the only State of the Art total health care provider of the country in private sector. Popular Medical College is a prestigious concern of Popular Group. The college was established in 2010. 
+               Group is the only State of the Art total health care provider of the country in private sector.  Medical College is a prestigious concern of  Group. The college was established in 2010. 
             
-              Though fairly new among the procession of medical colleges of the country, Popular Medical College has already attained an enviable status for its outstanding care in preparing the students for their MBBS course.
+              Though fairly new among the procession of medical colleges of the country,  Medical College has already attained an enviable status for its outstanding care in preparing the students for their MBBS course.
             </p>
           </div>
 
@@ -175,7 +175,7 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
 
           <div class="flex-grow">
             <p class="text-slate-900 leading-relaxed text-base text-center font-normal">
-              It is my immense pleasure and privilege to welcome the new students to be admitted into this prestigious Medical College. With a team of fulltime highly experienced and dedicated teachers, adequate modern aids of teaching facilities; Popular Medical College has been established as one of the top most Medical Colleges in private sector of Bangladesh. I hope that with the use of these facilities, the students will become competent doctors and will be able to serve the nation and internationally with professional aptitudes.
+              It is my immense pleasure and privilege to welcome the new students to be admitted into this prestigious Medical College. With a team of fulltime highly experienced and dedicated teachers, adequate modern aids of teaching facilities;  Medical College has been established as one of the top most Medical Colleges in private sector of Bangladesh. I hope that with the use of these facilities, the students will become competent doctors and will be able to serve the nation and internationally with professional aptitudes.
             </p>
           </div>
 

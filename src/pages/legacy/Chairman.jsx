@@ -11,8 +11,8 @@ const HTML = `<div class="bg-gray-50 px-4 py-16 sm:px-6 lg:px-8">
           <div class="group relative">
             <div class="overflow-hidden rounded-xl bg-white shadow-lg">
               <img
-                src="https://www.pmch-bd.org/images/PMC/Chairman_PMCH.jpg"
-                alt="Chairman, Governing Body of Popular Medical College"
+                src=""
+                alt="Chairman, Governing Body of  Medical College"
                 class="h-[450px] w-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
   
@@ -60,9 +60,9 @@ const HTML = `<div class="bg-gray-50 px-4 py-16 sm:px-6 lg:px-8">
               <span class="font-medium text-gray-800">Medicine</span> is the right
               choice. It also presents concise information about
               <span class="font-medium text-gray-800">
-                Popular Medical College
+                 Medical College
               </span>,
-              the flagship project of Popular Group—the only total health service
+              the flagship project of  Group—the only total health service
               provider in the private sector of the country.
             </p>
   
@@ -80,7 +80,7 @@ const HTML = `<div class="bg-gray-50 px-4 py-16 sm:px-6 lg:px-8">
             <div class="pt-4 space-y-1 text-right font-medium text-gray-700">
               <p class="text-gray-900">Dr. Mostafizur Rahman</p>
               <p>Chairman, Governing Body</p>
-              <p>Popular Medical College</p>
+              <p> Medical College</p>
             </div>
           </div>
         </div>

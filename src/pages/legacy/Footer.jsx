@@ -9,7 +9,7 @@ const HTML = `<footer class="bg-[#003B46] text-slate-300 pt-16 pb-0 border-t bor
 
       <div class="text-center md:text-left">
         <a href="/" class="inline-block bg-white p-3 rounded-xl shadow-md transition-transform hover:scale-[1.02]">
-          <img src="/assets/PMCH.gif" alt="Popular Medical College Logo" class="h-20 w-auto mx-auto md:mx-0">
+          <img src="/assets/PMCH.gif" alt=" Medical College Logo" class="h-20 w-auto mx-auto md:mx-0">
         </a>
       </div>
 
@@ -40,7 +40,7 @@ const HTML = `<footer class="bg-[#003B46] text-slate-300 pt-16 pb-0 border-t bor
 
   <div class="bg-slate-950/40 text-center text-xs tracking-wider font-medium text-slate-400 border-t border-teal-950/20 py-4 px-4">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-      <p>© 2026 Popular Medical College. All rights reserved.</p>
+      <p>© 2026  Medical College. All rights reserved.</p>
       <p class="text-[11px] text-slate-500">Designed & Maintained by <span class="text-emerald-500 font-semibold">PMC IT Node</span></p>
     </div>
   </div>

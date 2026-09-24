@@ -213,7 +213,7 @@ A student must get subject wise 85% of the total marks to avail honours mark.
 
 Internship Training
 
-Students who successfully pass the Final Professional MBBS Examination are required to undergo one year internship training in a BM&DC recognized hospital to be eligible for registration by BM&DC. Popular Medical College Hospital is recognized by BM&DC for such training. Internship is offered to the graduates of Popular Medical College.
+Students who successfully pass the Final Professional MBBS Examination are required to undergo one year internship training in a BM&DC recognized hospital to be eligible for registration by BM&DC.  Medical College Hospital is recognized by BM&DC for such training. Internship is offered to the graduates of  Medical College.
 </div>`;
 
 const MAP = { '/biochymistry':'/dept/biochymistry','/medicine':'/dept/medicine','/forensic':'/dept/forensic','/pathology':'/dept/pathology','/microbiology':'/dept/microbiology','/pharmacology':'/dept/pharmacology','/allied':'/dept/allied','/paediatrics':'/dept/paediatrics','/surgery':'/dept/surgery','/orthopaedics':'/dept/orthopaedics','/ophthalmology':'/dept/ophthalmology','/gynae':'/dept/gynae','/otorhinolaryngology':'/dept/otorhinolaryngology','/anaesthesiology':'/dept/anaesthesiology','/physiology':'/dept/physiology','/anatomy':'/dept/anatomy','/committee':'/committees' };

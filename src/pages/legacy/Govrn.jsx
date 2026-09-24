@@ -27,11 +27,11 @@ style="background-image: url('https://www.pmch-bd.org/images/yootheme/service-he
     <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col items-center">
       
       <div class="mb-8">
-        <img src="/assets/PMCH.gif" alt="Popular Medical College Logo" class="h-32 w-auto object-contain" />
+        <img src="/assets/PMCH.gif" alt=" Medical College Logo" class="h-32 w-auto object-contain" />
       </div>
   
       <h1 class="font-serif text-4xl md:text-5xl text-[#333] mb-8 text-center">
-        Popular Medical College
+         Medical College
       </h1>
   
       

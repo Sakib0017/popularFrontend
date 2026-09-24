@@ -18,7 +18,7 @@ const HTML = `<section class="relative bg-gray-50 py-20 px-6 md:px-12 overflow-h
 
       <div class="space-y-6 text-lg text-slate-600 leading-relaxed font-light">
         <p class="relative pl-6 border-l-2 border-blue-100">
-          The Department has a spacious and attractive dissection hall with all support, well equipped histology lab and a museum with essential specimens, models and charts. Hands-on-training on gross anatomy is offered during practical training in the dissection hall.<span class="font-semibold text-slate-800 underline decoration-blue-200 underline-offset-4">Popular Medical College</span>.
+          The Department has a spacious and attractive dissection hall with all support, well equipped histology lab and a museum with essential specimens, models and charts. Hands-on-training on gross anatomy is offered during practical training in the dissection hall.<span class="font-semibold text-slate-800 underline decoration-blue-200 underline-offset-4"> Medical College</span>.
           The Department has a spacious and attractive dissection hall with all support, well equipped histology lab and a museum with essential specimens, models and charts. Hands-on-training on gross anatomy is offered during practical training in the dissection hall. 
           
         

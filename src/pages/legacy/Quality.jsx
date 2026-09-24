@@ -31,7 +31,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                 <h2 class="text-3xl font-bold text-slate-800 mb-6">Commitment to Global Standards</h2>
                 <div class="space-y-4 text-slate-600 text-lg leading-relaxed">
                     <p>
-                        The Quality Assurance (QA) scheme at Popular Medical College ensures that our <span class="text-emerald-700 font-semibold">academic and clinical protocols</span> align with national and international benchmarks. 
+                        The Quality Assurance (QA) scheme at  Medical College ensures that our <span class="text-emerald-700 font-semibold">academic and clinical protocols</span> align with national and international benchmarks. 
                     </p>
                     <p>
                         Through regular feedback loops involving faculty, students, and external examiners, we foster an environment of continuous improvement to produce medical graduates of the highest caliber.
@@ -88,13 +88,13 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
   
       <div class="space-y-6 text-justify leading-relaxed text-[#555] text-lg">
         <p>
-          <span class=" text-gray-700">Apart from being able to provide the highest standard of care for the sick, the doctors of tomorrow require to be a good decision maker with fine communication & management skills and capable of providing the required leadership when the situation demands. To ensure this a persistent and systematic process of quality assurance cannot be over emphasized. Popular Medical College believes in student centric, teacher guided, parent supported, community oriented and values driven education program to produce competence based medical graduates capable</p>
+          <span class=" text-gray-700">Apart from being able to provide the highest standard of care for the sick, the doctors of tomorrow require to be a good decision maker with fine communication & management skills and capable of providing the required leadership when the situation demands. To ensure this a persistent and systematic process of quality assurance cannot be over emphasized.  Medical College believes in student centric, teacher guided, parent supported, community oriented and values driven education program to produce competence based medical graduates capable</p>
             <p>
-                <span class=" text-gray-700">of 'taking charge of the future'. Popular medical College ensures Quality Assurance of the medical curriculum through its Institutional Quality Assurance Body which is overviewed by the National Quality Assurance Body (NQAB) of Bangladesh.</p>
+                <span class=" text-gray-700">of 'taking charge of the future'.  medical College ensures Quality Assurance of the medical curriculum through its Institutional Quality Assurance Body which is overviewed by the National Quality Assurance Body (NQAB) of Bangladesh.</p>
                     <p>
-                        <span class=" text-gray-700">Quality Assurance (QA) is the totality of systems, resources and information devoted to maintain and improve the quality and standard of teaching, scholarship, research and the students learning experience. The Quality Assurance (QA) scheme in medical education review the way a college implements its course. Popular Medical College is having a strong Quality Assurance Body to monitor its education system, way of implementation of the course and the standard of teaching imparted to the students.</p>
+                        <span class=" text-gray-700">Quality Assurance (QA) is the totality of systems, resources and information devoted to maintain and improve the quality and standard of teaching, scholarship, research and the students learning experience. The Quality Assurance (QA) scheme in medical education review the way a college implements its course.  Medical College is having a strong Quality Assurance Body to monitor its education system, way of implementation of the course and the standard of teaching imparted to the students.</p>
                             <p>
-                                <span class=" text-gray-700">Popular Medical College is accountable to the people of Bangladesh to produce medical graduates who are competent to deliver the health care which the community requires. The college operates the QA process within a management system consistent with the attitude of a self-evaluating institution. This is externally reviewed by the National Quality Assurance Body (NQAB) based on quality parameters pertaining to teaching, training and research.</p>
+                                <span class=" text-gray-700"> Medical College is accountable to the people of Bangladesh to produce medical graduates who are competent to deliver the health care which the community requires. The college operates the QA process within a management system consistent with the attitude of a self-evaluating institution. This is externally reviewed by the National Quality Assurance Body (NQAB) based on quality parameters pertaining to teaching, training and research.</p>
                                                   
         
       </div>
@@ -119,7 +119,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
       <div class="space-y-6 text-justify leading-relaxed text-[#555] text-lg">
         <h1>Faculty Development Programs of the year (an overview)</h1>
         <p>
-          <span class=" text-gray-700">The greatest asset of an educational institute is its teaching staff and Popular Medical College has a large number of highly qualified experienced & eminent teachers who are best of the bests. The college provides for its teaching staff the opportunity to further develop their abilities in relation to teaching and learning through the Faculty Development and Review Scheme. It makes available an on-going programme of faculty development on teaching and learning, assessment and evaluation, research methodology, research and medical writing through the Medical Education Unit (MEU) of the college. It facilitates the departments in preparation of self-assessment reports of academic performance as per guidelines given by National Quality Assurance Body.</p>
+          <span class=" text-gray-700">The greatest asset of an educational institute is its teaching staff and  Medical College has a large number of highly qualified experienced & eminent teachers who are best of the bests. The college provides for its teaching staff the opportunity to further develop their abilities in relation to teaching and learning through the Faculty Development and Review Scheme. It makes available an on-going programme of faculty development on teaching and learning, assessment and evaluation, research methodology, research and medical writing through the Medical Education Unit (MEU) of the college. It facilitates the departments in preparation of self-assessment reports of academic performance as per guidelines given by National Quality Assurance Body.</p>
         
        
       </div>

@@ -13,7 +13,7 @@ export default function Home() {
       <div className="relative z-10 w-full">
         <section className="relative h-[65vh] min-h-[550px] w-full overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <img src="/assets/healthcare-hero.jpg" alt="Healthcare professionals at Popular Medical College" className="h-full w-full object-cover object-center" />
+            <img src="/assets/healthcare-hero.jpg" alt="Healthcare professionals at  Medical College" className="h-full w-full object-cover object-center" />
             <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/60 to-transparent"></div>
           </div>
           <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-6 md:px-12">
@@ -23,7 +23,7 @@ export default function Home() {
                 <div className="h-1 w-20 bg-emerald-900 rounded-full"></div>
               </div>
               <p className="text-lg leading-relaxed text-slate-50 md:text-xl font-light">
-                Popular Medical College can boast of a faculty which certainly is well reputed and respected nationally and internationally for their devotion and professionalism. It is also important to point out that many of the faculty members are actively involved with postgraduate teaching, learning and examination programs in addition to their undergraduate responsibilities.
+                 Medical College can boast of a faculty which certainly is well reputed and respected nationally and internationally for their devotion and professionalism. It is also important to point out that many of the faculty members are actively involved with postgraduate teaching, learning and examination programs in addition to their undergraduate responsibilities.
               </p>
               <div className="flex flex-wrap gap-4 pt-2">
                 <a href="#" className="inline-flex items-center justify-center rounded-full bg-emerald-900 px-8 py-3.5 text-base font-semibold text-white hover:bg-[#007d3c] shadow-lg">Apply Now</a>
@@ -37,9 +37,9 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
               <div className="w-full lg:w-1/2 flex flex-col justify-center space-y-6">
-                <h2 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight tracking-tight">Popular Medical College</h2>
+                <h2 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight tracking-tight"> Medical College</h2>
                 <div className="text-slate-900 leading-relaxed text-lg max-w-xl space-y-4 font-normal">
-                  <p>Popular Group is the only State of the Art total health care provider of the country in private sector. Popular Medical College is a prestigious concern of Popular Group. The college was established in 2010. Though fairly new among the procession of medical colleges of the country, Popular Medical College has already attained an enviable status for its outstanding care in preparing the students for their MBBS course.</p>
+                  <p> Group is the only State of the Art total health care provider of the country in private sector.  Medical College is a prestigious concern of  Group. The college was established in 2010. Though fairly new among the procession of medical colleges of the country,  Medical College has already attained an enviable status for its outstanding care in preparing the students for their MBBS course.</p>
                 </div>
               </div>
               <div className="w-full lg:w-1/2 flex items-center justify-center">
@@ -66,7 +66,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
               {[
                 { t: "From Vice-Principal's Desk", img: '/assets/Vice.jpg', d: 'He obtained his MBBS in 2002, MRCS in 2010, and FCPS in 2011. He also obtained Fellowship and Diploma on laparoscopy surgery in 2012. He worked in teaching posts in different medical colleges for about 12 years.' },
-                { t: "From Principal's Desk", img: '/assets/principal.jpg', d: 'It is my immense pleasure and privilege to welcome the new students to be admitted into this prestigious Medical College. With a team of fulltime highly experienced and dedicated teachers, Popular Medical College has been established as one of the top most Medical Colleges in private sector of Bangladesh.', head: true },
+                { t: "From Principal's Desk", img: '/assets/principal.jpg', d: 'It is my immense pleasure and privilege to welcome the new students to be admitted into this prestigious Medical College. With a team of fulltime highly experienced and dedicated teachers,  Medical College has been established as one of the top most Medical Colleges in private sector of Bangladesh.', head: true },
                 { t: "From Chairman's Desk", img: '/assets/Chairman.jpg', d: 'The best gift of the parent to their sons & daughters is perfect education. In our country it is a great concern of every parent to find out perfect education for their sons and daughters after passing Higher Secondary Certificate Examination.' },
               ].map((c, i) => (
                 <div key={i} className={`flex flex-col backdrop-blur-md rounded-2xl p-8 shadow-sm transition-all hover:shadow-xl hover:-translate-y-1 ${c.head ? 'shadow-md border-t-4 border-t-emerald-900' : ''}`}>

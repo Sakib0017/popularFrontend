@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center pb-12 border-b border-teal-900/60">
           <div className="text-center md:text-left">
             <Link to="/" className="inline-block bg-white p-3 rounded-xl shadow-md transition-transform hover:scale-[1.02]">
-              <img src="/assets/PMCH.gif" alt="Popular Medical College Logo" className="h-20 w-auto mx-auto md:mx-0" />
+              <img src="/assets/PMCH.gif" alt=" Medical College Logo" className="h-20 w-auto mx-auto md:mx-0" />
             </Link>
           </div>
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs font-bold tracking-[0.15em] uppercase text-slate-200">
@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
       <div className="bg-slate-950/40 text-center text-xs tracking-wider font-medium text-slate-400 border-t border-teal-950/20 py-4 px-4">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-          <p>© 2026 Popular Medical College. All rights reserved.</p>
+          <p>© 2026  Medical College. All rights reserved.</p>
           <p className="text-[11px] text-slate-500">Designed & Maintained by <span className="text-emerald-500 font-semibold">PMC IT Node</span> • MERN build</p>
         </div>
       </div>

@@ -29,7 +29,7 @@ const HTML = `<!-- Top Utility Masthead Bar: Styled to match image layout with f
       <div class="flex-shrink-0">
         <a href="/" class="block">
           <!-- Placeholder matches your branding structure -->
-          <img src="/assets/PMCH.gif" alt="Popular Medical College Logo" class="h-14 md:h-16 w-auto">
+          <img src="/assets/PMCH.gif" alt=" Medical College Logo" class="h-14 md:h-16 w-auto">
         </a>
       </div>
 

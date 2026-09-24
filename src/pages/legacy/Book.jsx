@@ -62,7 +62,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                   />
                   
                   <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-                      <p class="text-white font-medium">Reference Section - Popular Medical College Library</p>
+                      <p class="text-white font-medium">Reference Section -  Medical College Library</p>
                   </div>
               </div>
           </div>

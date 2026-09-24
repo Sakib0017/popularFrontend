@@ -17,7 +17,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
               Rules & <span class="text-emerald-600">Regulations</span>
           </h1>
           <p class="mt-6 text-lg md:text-xl text-slate-700 leading-relaxed font-medium">
-              Established guidelines to maintain a disciplined, professional, and productive academic environment for all members of the Popular Medical College community.
+              Established guidelines to maintain a disciplined, professional, and productive academic environment for all members of the  Medical College community.
           </p>
       </div>
   </div>
@@ -87,13 +87,13 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
       <div class="space-y-4 text-gray-600 leading-relaxed text-sm md:text-base">
         <ul class="list-disc list-outside ml-5 space-y-4">
           <li>
-            Popular Medical College, Hospital and Hostel Campus is a non-smoking zone. Smoking is absolutely prohibited in the college, hospital and hostel campus and treated as punishable offence.
+             Medical College, Hospital and Hostel Campus is a non-smoking zone. Smoking is absolutely prohibited in the college, hospital and hostel campus and treated as punishable offence.
           </li>
 
           <li>
             Political activities are not permitted in the college, hospital and hostel. Organization in the name of Union, Association or Society other than those set by the college authority are forbidden. Any attempt of such activity is treated as punishable offence.</li>
           <li>
-            Popular Medical College, Hospital and Hostel Campus is a non-smoking zone. Smoking is absolutely prohibited in the college, hospital and hostel campus and treated as punishable offence.
+             Medical College, Hospital and Hostel Campus is a non-smoking zone. Smoking is absolutely prohibited in the college, hospital and hostel campus and treated as punishable offence.
           </li>
           <li>
             Fixing and or hanging of posters, distribution of leaflets, pamphlets etc. within the college, hospital and hostel premises are strictly prohibited unless permitted by the authority. These are treated as gross indiscipline & the offenders are liable to punishment. </li>

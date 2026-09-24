@@ -17,7 +17,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                 Meet the Legends
             </h1>
             <p class="mt-6 text-lg md:text-xl text-slate-700 leading-relaxed font-medium">
-              Three legends (Prof. Peter McCollum from UK, Prof. Bill Fleming from Australia and Prof. Datuk Ismail Sagap from Malaysia) visited the Popular Medical College & Hospital meet the entrepreneur Dr. Mostafizur Rahman and observe the facilities available for the students & trainees. 
+              Three legends (Prof. Peter McCollum from UK, Prof. Bill Fleming from Australia and Prof. Datuk Ismail Sagap from Malaysia) visited the  Medical College & Hospital meet the entrepreneur Dr. Mostafizur Rahman and observe the facilities available for the students & trainees. 
             
               </p>
         </div>
@@ -32,7 +32,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                 <h2 class="text-3xl font-bold text-slate-800 mb-6">International Excellence</h2>
                 <div class="space-y-4 text-slate-600 text-lg leading-relaxed">
                     <p>
-                      Three legends (Prof. Peter McCollum from UK, Prof. Bill Fleming from Australia and Prof. Datuk Ismail Sagap from Malaysia) visited the Popular Medical College & Hospital meet the entrepreneur Dr. Mostafizur Rahman and observe the facilities available for the students & trainees. They expressed satisfaction about the available facilities and addressed in a briefing session of the interns & junior doctors about scope of career planning in their own country and globally.
+                      Three legends (Prof. Peter McCollum from UK, Prof. Bill Fleming from Australia and Prof. Datuk Ismail Sagap from Malaysia) visited the  Medical College & Hospital meet the entrepreneur Dr. Mostafizur Rahman and observe the facilities available for the students & trainees. They expressed satisfaction about the available facilities and addressed in a briefing session of the interns & junior doctors about scope of career planning in their own country and globally.
                    
                       </p>
                 

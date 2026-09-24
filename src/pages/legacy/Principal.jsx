@@ -11,8 +11,8 @@ const HTML = `<div class="bg-gray-50 px-4 py-16 sm:px-6 lg:px-8">
           <div class="group relative">
             <div class="overflow-hidden rounded-xl bg-white shadow-lg">
               <img
-                src="https://pmc.ac.bd/templates/yootheme/cache/vice-principal-9d81f0ff.jpg#thumbnail=350%2C&sizes=80%25%2C200%25"
-                alt="Governing Body of Popular Medical College"
+                src=""
+                alt="Governing Body of  Medical College"
                 class="h-[450px] w-[350px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
   
@@ -41,7 +41,7 @@ knowledge.
   
             <p>
              In this part of the world where the need for standard healthcare outplays the logistics and skilled
-manpower, medical colleges play a pivotal role to meet up the challenges. Popular Medical
+manpower, medical colleges play a pivotal role to meet up the challenges.  Medical
 College started its journey with a view to take up the challenge of building skilled manpower
 along with providing standard healthcare to the people from all walks of the society. 
             </p>
@@ -66,7 +66,7 @@ participate and host numerous clinical meetings and programs with many renowned 
 organisations including American College of Physicians routinely.
             </p>
              <p>
-              Popular Medical College started its voyage with a commitment of “PRODUCING DOCTORS
+               Medical College started its voyage with a commitment of “PRODUCING DOCTORS
 WITH DIFFERENCE”. Till now, the college has been cruising through all odds and hardship but
 maintaining the right course with full throttle. 
             </p>
@@ -82,7 +82,7 @@ healthcare.
               <p class="text-gray-900">Prof. Khandaker Abu Rayhan</p>
               <p>Principal &</p>
               <p>Professor & Head, Department of Anatomy</p>
-              <p>Popular Medical College</p>
+              <p> Medical College</p>
             </div>
           </div>
         </div>

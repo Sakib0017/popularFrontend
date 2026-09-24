@@ -33,7 +33,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                 <div class="space-y-4 text-slate-600 text-lg leading-relaxed">
                     <p>
                       Physical fitness is an essential requisite for a professional education like medical science. In
-order to ensure optimum health this institution has a medical centre for regular health checkup of the students. It provides all medical students and staffs with a state of the art medical centre dedicated for the college. This medical centre provide regular medical checkup, emergency and on demand medical facilities upto specialist service and hospital admissions if required. The services of the medical centre is open from 8.00 am to 2.00 pm and is available to all students free of charge. Emergency medical services are provided by the Popular Medical College Hospital round the clock.
+order to ensure optimum health this institution has a medical centre for regular health checkup of the students. It provides all medical students and staffs with a state of the art medical centre dedicated for the college. This medical centre provide regular medical checkup, emergency and on demand medical facilities upto specialist service and hospital admissions if required. The services of the medical centre is open from 8.00 am to 2.00 pm and is available to all students free of charge. Emergency medical services are provided by the  Medical College Hospital round the clock.
                     </p>
                    
                 </div>

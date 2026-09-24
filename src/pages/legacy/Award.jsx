@@ -17,7 +17,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                 Academic <span class="text-emerald-600">Awards</span>
             </h1>
             <p class="mt-6 text-lg md:text-xl text-slate-700 leading-relaxed font-medium">
-                Celebrating exceptional academic achievements to foster a harmonious, competitive, and inspiring learning environment at Popular Medical College.
+                Celebrating exceptional academic achievements to foster a harmonious, competitive, and inspiring learning environment at  Medical College.
             </p>
         </div>
     </div>
@@ -31,7 +31,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                 <h2 class="text-3xl font-bold text-slate-800 mb-6">Honoring Excellence</h2>
                 <div class="space-y-4 text-slate-600 text-lg leading-relaxed">
                     <p>
-                        Popular Medical College has introduced a variety of <span class="text-emerald-700 font-semibold">distinguished academic awards</span> to encourage students to reach their full potential. These honors recognize consistent performance, research initiatives, and professional conduct.
+                         Medical College has introduced a variety of <span class="text-emerald-700 font-semibold">distinguished academic awards</span> to encourage students to reach their full potential. These honors recognize consistent performance, research initiatives, and professional conduct.
                     </p>
                     <p>
                         Our award system is designed to motivate medical graduates to excel not only in examinations but also in clinical practice and social accountability.
@@ -104,7 +104,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
         <p>
           <span class=" text-gray-700">The college acknowledges and stresses the need of regularity and punctuality in addition to discipline. The introduction of the "Attendance Award" for all students attaining 100% class attendance is an example of this.</p>
             <p>
-                <span class=" text-gray-700">In addition the Popular Medical College has introduced the following awards for admirable academic achievement. "Principal's Honor Roll" – is awarded to a student who achieves an aggregate of 75% or more marks over the whole calendar year including professional examination. "PMC Achievement Award" - is awarded to a student who obtains "Honors marks" in a professional examination held during a calendar year. "</p>
+                <span class=" text-gray-700">In addition the  Medical College has introduced the following awards for admirable academic achievement. "Principal's Honor Roll" – is awarded to a student who achieves an aggregate of 75% or more marks over the whole calendar year including professional examination. "PMC Achievement Award" - is awarded to a student who obtains "Honors marks" in a professional examination held during a calendar year. "</p>
                     <p>
                         <span class=" text-gray-700">PMC Gold Student Award" - is awarded to a student who attains a position among the first 10 places in a professional examination during a calendar year. A student can be the recipient of any one or more award within that calendar year.</p>
                          

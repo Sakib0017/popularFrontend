@@ -34,7 +34,7 @@ export default function Department() {
         <div className="max-w-7xl mx-auto">
           <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">Medical Excellence</div>
           <h1 className="text-4xl md:text-5xl text-slate-900 leading-tight mb-8">DEPARTMENT OF {dept.toUpperCase()}</h1>
-          <p className="text-lg text-slate-600 leading-relaxed max-w-3xl">Faculty list for the Department of {dept} at Popular Medical College. Senior faculty (left) and Lecturers (right) — loaded live from MongoDB (migrated from MySQL `doctor` table).</p>
+          <p className="text-lg text-slate-600 leading-relaxed max-w-3xl">Faculty list for the Department of {dept} at  Medical College. Senior faculty (left) and Lecturers (right) — loaded live from MongoDB (migrated from MySQL `doctor` table).</p>
         </div>
       </section>
       <div className="max-w-7xl mx-auto py-10 px-4 md:px-6">

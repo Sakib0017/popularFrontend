@@ -32,7 +32,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                 <h2 class="text-3xl font-bold text-slate-800 mb-6">Empowering Future Leaders</h2>
                 <div class="space-y-4 text-slate-600 text-lg leading-relaxed">
                     <p>
-                      As part of the social accountability in addition to develop its students as total healthcare provider, Popular Medical College has established a student resource centre to facilitate to develop as decision maker (decision making skill development), communicator (communication skill development), manager (managerial skill development) and also a community leader (leadership skill development). At this competitive global perspective it is imperative to provide the students with opportunity to develop the above mention skills to become an all rounder medical graduate.
+                      As part of the social accountability in addition to develop its students as total healthcare provider,  Medical College has established a student resource centre to facilitate to develop as decision maker (decision making skill development), communicator (communication skill development), manager (managerial skill development) and also a community leader (leadership skill development). At this competitive global perspective it is imperative to provide the students with opportunity to develop the above mention skills to become an all rounder medical graduate.
                       </p>
                    
                 </div>
