@@ -65,9 +65,9 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-6 md:px-12">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
               {[
-                { t: "From Vice-Principal's Desk", img: '/assets/Vice.jpg', d: 'He obtained his MBBS in 2002, MRCS in 2010, and FCPS in 2011. He also obtained Fellowship and Diploma on laparoscopy surgery in 2012. He worked in teaching posts in different medical colleges for about 12 years.' },
-                { t: "From Principal's Desk", img: '/assets/principal.jpg', d: 'It is my immense pleasure and privilege to welcome the new students to be admitted into this prestigious Medical College. With a team of fulltime highly experienced and dedicated teachers,  Medical College has been established as one of the top most Medical Colleges in private sector of Bangladesh.', head: true },
-                { t: "From Chairman's Desk", img: '/assets/Chairman.jpg', d: 'The best gift of the parent to their sons & daughters is perfect education. In our country it is a great concern of every parent to find out perfect education for their sons and daughters after passing Higher Secondary Certificate Examination.' },
+                { t: "From Vice-Principal's Desk", img: '', d: 'He obtained his MBBS in 2002, MRCS in 2010, and FCPS in 2011. He also obtained Fellowship and Diploma on laparoscopy surgery in 2012. He worked in teaching posts in different medical colleges for about 12 years.' },
+                { t: "From Principal's Desk", img: '', d: 'It is my immense pleasure and privilege to welcome the new students to be admitted into this prestigious Medical College. With a team of fulltime highly experienced and dedicated teachers,  Medical College has been established as one of the top most Medical Colleges in private sector of Bangladesh.', head: true },
+                { t: "From Chairman's Desk", img: '', d: 'The best gift of the parent to their sons & daughters is perfect education. In our country it is a great concern of every parent to find out perfect education for their sons and daughters after passing Higher Secondary Certificate Examination.' },
               ].map((c, i) => (
                 <div key={i} className={`flex flex-col backdrop-blur-md rounded-2xl p-8 shadow-sm transition-all hover:shadow-xl hover:-translate-y-1 ${c.head ? 'shadow-md border-t-4 border-t-emerald-900' : ''}`}>
                   <h3 className="text-xl font-bold text-slate-800 text-center mb-6">{c.t}</h3>
