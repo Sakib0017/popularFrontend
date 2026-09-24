@@ -1,0 +1,194 @@
+[
+  {
+    "comp": "Govrn",
+    "route": "govrn"
+  },
+  {
+    "comp": "About",
+    "route": "about"
+  },
+  {
+    "comp": "Allied",
+    "route": "allied"
+  },
+  {
+    "comp": "Anaesthesiology",
+    "route": "anaesthesiology"
+  },
+  {
+    "comp": "Anatomy",
+    "route": "anatomy"
+  },
+  {
+    "comp": "Assist",
+    "route": "assist"
+  },
+  {
+    "comp": "Award",
+    "route": "award"
+  },
+  {
+    "comp": "Biochymistry",
+    "route": "biochymistry"
+  },
+  {
+    "comp": "Book",
+    "route": "book"
+  },
+  {
+    "comp": "Cafe",
+    "route": "cafe"
+  },
+  {
+    "comp": "Center",
+    "route": "center"
+  },
+  {
+    "comp": "Chairman",
+    "route": "chairman"
+  },
+  {
+    "comp": "Committee",
+    "route": "committee"
+  },
+  {
+    "comp": "Common",
+    "route": "common"
+  },
+  {
+    "comp": "Confer",
+    "route": "confer"
+  },
+  {
+    "comp": "Contact",
+    "route": "contact"
+  },
+  {
+    "comp": "Course",
+    "route": "course"
+  },
+  {
+    "comp": "Detail",
+    "route": "detail"
+  },
+  {
+    "comp": "Eligiblity",
+    "route": "eligiblity"
+  },
+  {
+    "comp": "Faculty",
+    "route": "faculty"
+  },
+  {
+    "comp": "Fees",
+    "route": "fees"
+  },
+  {
+    "comp": "Footer",
+    "route": "footer"
+  },
+  {
+    "comp": "Forensic",
+    "route": "forensic"
+  },
+  {
+    "comp": "Guardians",
+    "route": "guardians"
+  },
+  {
+    "comp": "Gynae",
+    "route": "gynae"
+  },
+  {
+    "comp": "Hostal",
+    "route": "hostal"
+  },
+  {
+    "comp": "Index",
+    "route": "index"
+  },
+  {
+    "comp": "Info",
+    "route": "info"
+  },
+  {
+    "comp": "It",
+    "route": "it"
+  },
+  {
+    "comp": "Land",
+    "route": "land"
+  },
+  {
+    "comp": "Legends",
+    "route": "legends"
+  },
+  {
+    "comp": "Library",
+    "route": "library"
+  },
+  {
+    "comp": "Medicine",
+    "route": "medicine"
+  },
+  {
+    "comp": "Microbiology",
+    "route": "microbiology"
+  },
+  {
+    "comp": "Navbar",
+    "route": "navbar"
+  },
+  {
+    "comp": "Ophthalmology",
+    "route": "ophthalmology"
+  },
+  {
+    "comp": "Orthopaedics",
+    "route": "orthopaedics"
+  },
+  {
+    "comp": "Otorhinolaryngology",
+    "route": "otorhinolaryngology"
+  },
+  {
+    "comp": "Paediatrics",
+    "route": "paediatrics"
+  },
+  {
+    "comp": "Pathology",
+    "route": "pathology"
+  },
+  {
+    "comp": "Pharmacology",
+    "route": "pharmacology"
+  },
+  {
+    "comp": "Physiology",
+    "route": "physiology"
+  },
+  {
+    "comp": "Principal",
+    "route": "principal"
+  },
+  {
+    "comp": "Quality",
+    "route": "quality"
+  },
+  {
+    "comp": "Resource",
+    "route": "resource"
+  },
+  {
+    "comp": "Rules",
+    "route": "rules"
+  },
+  {
+    "comp": "Surgery",
+    "route": "surgery"
+  },
+  {
+    "comp": "Vice",
+    "route": "vice"
+  }
+]
