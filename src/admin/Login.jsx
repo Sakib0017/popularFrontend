@@ -19,7 +19,7 @@ export default function Login() {
         <div className="bg-[#00984a] p-8 text-center">
           <div className="inline-flex h-16 w-16 bg-white rounded-full items-center justify-center text-[#00984a] text-3xl font-bold mb-4">P</div>
           <h2 className="text-3xl font-bold text-white uppercase">Log In</h2>
-          <p className="text-green-100 text-sm mt-1">Popular Medical College Management</p>
+          <p className="text-green-100 text-sm mt-1">Medical College Management</p>
         </div>
         <form onSubmit={submit} className="p-8 space-y-6">
           {err && <div className="bg-red-50 text-red-600 p-3 rounded text-sm">{err}</div>}

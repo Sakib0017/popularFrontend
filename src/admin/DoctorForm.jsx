@@ -35,10 +35,10 @@ export default function DoctorForm() {
 
   return (
     <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-sm border overflow-hidden">
-      <div className="bg-gradient-to-r from-[#00984a] to-green-500 px-6 py-8"><h2 className="text-2xl font-bold text-white">{isEdit ? 'Edit Doctor' : 'Add New Doctor'}</h2></div>
-      <form onSubmit={submit} className="p-6 md:p-10 space-y-6">
-        <div><label className="font-bold text-sm uppercase">Profile Image</label><input type="file" accept="image/*" onChange={e => setFile(e.target.files[0])} className="mt-2 block" /></div>
-        <div className="grid md:grid-cols-3 gap-4">
+      <div className="bg-gradient-to-r from-[#00984a] to-green-500 px-5 sm:px-6 py-6 sm:py-8"><h2 className="text-xl sm:text-2xl font-bold text-white">{isEdit ? 'Edit Doctor' : 'Add New Doctor'}</h2></div>
+      <form onSubmit={submit} className="p-5 sm:p-6 md:p-10 space-y-5 sm:space-y-6">
+        <div><label className="font-bold text-xs sm:text-sm uppercase">Profile Image</label><input type="file" accept="image/*" onChange={e => setFile(e.target.files[0])} className="mt-2 block text-sm max-w-full" /></div>
+        <div className="grid sm:grid-cols-3 gap-4">
           <div><label className="font-bold text-sm uppercase">Title</label>
             <select value={form.title} onChange={e => setForm({ ...form, title: e.target.value })} required className="w-full px-4 py-3 border rounded-xl bg-white">
               <option value="">Select</option>{titles.map(t => <option key={t._id} value={t.name}>{t.name}</option>)}
@@ -46,7 +46,7 @@ export default function DoctorForm() {
           <div className="md:col-span-2"><label className="font-bold text-sm uppercase">Full Name</label>
             <input value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} required className="w-full px-4 py-3 border rounded-xl" /></div>
         </div>
-        <div className="grid md:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 gap-4">
           <div><label className="font-bold text-sm uppercase">Designation</label>
             <input value={form.designation} onChange={e => setForm({ ...form, designation: e.target.value })} required className="w-full px-4 py-3 border rounded-xl" /></div>
           <div><label className="font-bold text-sm uppercase">Department</label>
@@ -60,7 +60,7 @@ export default function DoctorForm() {
           </select></div>
         <div><label className="font-bold text-sm uppercase">Speech</label>
           <textarea value={form.speech} onChange={e => setForm({ ...form, speech: e.target.value })} rows="4" className="w-full px-4 py-3 border rounded-xl" /></div>
-        <button className="px-12 py-4 bg-[#00984a] text-white font-bold rounded-xl">Save Profile</button>
+        <button className="w-full sm:w-auto px-8 sm:px-12 py-3.5 sm:py-4 bg-[#00984a] text-white font-bold rounded-xl text-sm sm:text-base">Save Profile</button>
       </form>
     </div>
   );

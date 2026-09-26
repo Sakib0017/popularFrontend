@@ -1,4 +1,108 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body { font-family: 'Cormorant Garamond', serif; }
+
+/* ============================================================
+   GLOBAL RESPONSIVE FOUNDATION — applies to EVERY page
+   (Home, Department, DoctorDetail, Committees, Admin +
+    all 50+ legacy static pages rendered via dangerouslySetInnerHTML)
+   ============================================================ */
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+img[src=""], img:not([src]) { display: none; }
+
+/* Legacy HTML-string pages: never let tables break mobile layout.
+   Each legacy page wraps content in a plain <div>, so target
+   tables generically inside main content areas. */
+table {
+  border-collapse: collapse;
+}
+
+/* Any overflow-x-auto wrapper must actually scroll on touch devices */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ---- Mobile (phones < 640px) ---- */
+@media (max-width: 639px) {
+  /* Hero sections using fixed viewport heights: shrink them */
+  section[class*="h-[50vh]"],
+  section[class*="h-[60vh]"],
+  section[class*="h-[65vh]"] {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  /* Large display headings scale down fluidly */
+  h1 { font-size: clamp(1.6rem, 7vw, 2.25rem) !important; line-height: 1.15 !important; }
+  h2 { font-size: clamp(1.3rem, 5.5vw, 1.75rem) !important; line-height: 1.2 !important; }
+
+  /* Long legacy paddings like px-20 / md:px-20 stay bounded */
+  section[class*="px-"] { padding-left: 1rem; padding-right: 1rem; }
+
+  /* Tables: allow horizontal swipe instead of page overflow */
+  .overflow-x-auto > table { min-width: 560px; }
+  table { font-size: 0.85rem; }
+  th, td { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
+
+  /* Prevent giant fixed text like text-[24px] section dividers overflowing */
+  span[class*="text-[24px]"] { font-size: 1.05rem !important; white-space: nowrap; }
+}
+
+/* ---- Tablet (640px – 1023px) ---- */
+@media (min-width: 640px) and (max-width: 1023px) {
+  section[class*="h-[50vh]"],
+  section[class*="h-[60vh]"],
+  section[class*="h-[65vh]"] {
+    height: auto !important;
+    min-height: 420px !important;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+  h1 { font-size: clamp(2rem, 5vw, 3rem) !important; }
+}
+
+/* Stacked-table pattern for data tables on phones.
+   Apply by adding class "stacked-mobile" to the <table>. */
+@media (max-width: 639px) {
+  table.stacked-mobile thead { display: none; }
+  table.stacked-mobile,
+  table.stacked-mobile tbody,
+  table.stacked-mobile tr,
+  table.stacked-mobile td { display: block; width: 100% !important; }
+  table.stacked-mobile tr {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+    background: #fff;
+  }
+  table.stacked-mobile td {
+    border: none !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    text-align: left !important;
+  }
+  table.stacked-mobile td:last-child { border-bottom: none !important; }
+  table.stacked-mobile td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #64748b;
+    margin-bottom: 0.25rem;
+  }
+}
