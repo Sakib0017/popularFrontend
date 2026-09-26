@@ -3,12 +3,12 @@ import Footer from '../../components/Footer.jsx';
 import { useEffect, useRef } from 'react';
 
 const HTML = `<section class="relative bg-gray-50 py-20 px-6 md:px-12 overflow-hidden">
-  <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-96 h-96 bg-blue-50 rounded-full blur-3xl opacity-50"></div>
+  <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-96 h-96 bg-brand-100 rounded-full blur-3xl opacity-50"></div>
 
   <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-24 relative z-10">
     
     <div class="w-full lg:w-1/2">
-      <div class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
+      <div class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-600 uppercase bg-brand-100 rounded-full">
         Medical Excellence
       </div>
       
@@ -17,7 +17,7 @@ const HTML = `<section class="relative bg-gray-50 py-20 px-6 md:px-12 overflow-h
       </h1>
 
       <div class="space-y-6 text-lg text-slate-600 leading-relaxed font-light">
-        <p class="relative pl-6 border-l-2 border-blue-100">
+        <p class="relative pl-6 border-l-2 border-brand-200">
           The Department of Otorhinolaryngology and Head-Neck surgery has strong academic faculty. It has well equipped indoor and outdoor to provide adequate clinical exposure to students and trainee doctors.
         </p>
         
@@ -113,21 +113,21 @@ const HTML = `<section class="relative bg-gray-50 py-20 px-6 md:px-12 overflow-h
        <table class="w-full min-w-[600px] text-start border-collapse">
         <thead>
           <tr class="bg-gray-50 border-b border-gray-200">
-            <th colspan="4" class="px-4 md:px-6 py-4 text-xs md:text-sm font-bold uppercase tracking-widest text-blue-900 border-r border-gray-200">
+            <th colspan="4" class="px-4 md:px-6 py-4 text-xs md:text-sm font-bold uppercase tracking-widest text-slate-800 border-r border-gray-200">
               From left to right From first Left Side Picture:
             </th>
           </tr>
           <tr class="bg-gray-50 border-b border-gray-200">
-            <th class="px-4 md:px-6 py-4 text-[10px] md:text-xs font-bold uppercase tracking-widest text-blue-900 border-r border-gray-200 w-1/4">
+            <th class="px-4 md:px-6 py-4 text-[10px] md:text-xs font-bold uppercase tracking-widest text-slate-800 border-r border-gray-200 w-1/4">
               First row:
             </th>
-            <th class="px-4 md:px-6 py-4 text-[10px] md:text-xs font-bold uppercase tracking-widest text-blue-900 border-r border-gray-200 w-1/4">
+            <th class="px-4 md:px-6 py-4 text-[10px] md:text-xs font-bold uppercase tracking-widest text-slate-800 border-r border-gray-200 w-1/4">
               Title
             </th>
-            <th class="px-4 md:px-6 py-4 text-[10px] md:text-xs font-bold uppercase tracking-widest text-blue-900 border-r border-gray-200 w-1/4">
+            <th class="px-4 md:px-6 py-4 text-[10px] md:text-xs font-bold uppercase tracking-widest text-slate-800 border-r border-gray-200 w-1/4">
               Second row (Lecturers):
             </th>
-            <th class="px-4 md:px-6 py-4 text-[10px] md:text-xs font-bold uppercase tracking-widest text-blue-900 w-1/4">
+            <th class="px-4 md:px-6 py-4 text-[10px] md:text-xs font-bold uppercase tracking-widest text-slate-800 w-1/4">
               Title
             </th>
           </tr>
@@ -139,7 +139,7 @@ const HTML = `<section class="relative bg-gray-50 py-20 px-6 md:px-12 overflow-h
             <td class="px-4 md:px-6 py-4 text-gray-800 border-r border-gray-200">
               
                 <div class="flex items-center gap-3">
-                  <a href="/detail" class="hover:text-blue-600 transition-colors">
+                  <a href="/detail" class="hover:text-brand-600 transition-colors">
                     
                   </a>
                 </div>
@@ -149,7 +149,7 @@ const HTML = `<section class="relative bg-gray-50 py-20 px-6 md:px-12 overflow-h
             <td class="px-4 md:px-6 py-4 text-gray-800 border-r border-gray-200">
               
                 <div class="flex items-center gap-3">
-                  <a href="/detail" class="hover:text-blue-600 transition-colors">
+                  <a href="/detail" class="hover:text-brand-600 transition-colors">
                     
                   </a>
                 </div>
@@ -159,7 +159,7 @@ const HTML = `<section class="relative bg-gray-50 py-20 px-6 md:px-12 overflow-h
             <td class="px-4 md:px-6 py-4 italic border-r border-gray-200">
               
                 <div class="flex items-center gap-3">
-                  <a href="/detail" class="hover:text-blue-600 transition-colors">
+                  <a href="/detail" class="hover:text-brand-600 transition-colors">
                     
                   </a>
                 </div>
@@ -169,7 +169,7 @@ const HTML = `<section class="relative bg-gray-50 py-20 px-6 md:px-12 overflow-h
             <td class="px-4 md:px-6 py-4 italic">
               
                 <div class="flex items-center gap-3">
-                   <a href="/detail" class="hover:text-blue-600 transition-colors">
+                   <a href="/detail" class="hover:text-brand-600 transition-colors">
                     
                   </a>
                 </div>

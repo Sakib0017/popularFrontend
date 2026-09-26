@@ -22,67 +22,67 @@ const HTML = `<div class="max-w-7xl mx-auto my-10 px-4">
         </thead>
   
         <tbody class="bg-white divide-y divide-gray-200">
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">০১</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৪৯৮</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-600">৪৪.৩০ কাঠা</td>
           </tr>
-          <tr class="hover:bg-blue-50">
+          <tr class="hover:bg-brand-100">
             <td class="px-6 py-4 whitespace-nowrap   text-center font-medium text-gray-900">মোট =   </td>
             <td class="px-6 py-4 whitespace-nowrap   text-center font-medium text-gray-900"></td>
             <td class="px-6 py-4 whitespace-nowrap   text-center   text-gray-700">  ১২১.৬৩ কাঠা</td>
@@ -100,12 +100,12 @@ const HTML = `<div class="max-w-7xl mx-auto my-10 px-4">
        
   
         <tbody class="bg-white divide-y divide-gray-200">
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">মৌজা   (স্থায়ী ক্যাম্পাস) </td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700"> কাটাসুর, জে এল নং ০০৬</td>
             
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">খতিয়ান নম্বর  </td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৪১৮১,৪২২৭,৪১৭৪,৪৯৫৪,৯৯৫৭,৪১৭৯,৪১৭৭,</br>
 
@@ -114,22 +114,22 @@ const HTML = `<div class="max-w-7xl mx-auto my-10 px-4">
                 ১২৬৫৪,১২১৪৯,৯৯৮২,১২১৪৮,১২১৫৩,৪২১৮</td>
             
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">জমির পরিমাণ</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">  ১২১.৬৩ কাঠা</td>
             
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">নামজারী</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">আবেদিত।</td>
             
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">একাডেমিক (বর্তমান অস্থায়ী) ভবন ফ্লোরস্পেস</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700"> ১,৫০,০০০ বর্গফুট</td>
             
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">হাসপাতাল (বর্তমান অস্থায়ী) ৬টি ভবন মোট ফ্লোরস্পেস</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">২,০০,০০০ বর্গফুট</td>
            

@@ -2,30 +2,23 @@ import Navbar from '../../components/Navbar.jsx';
 import Footer from '../../components/Footer.jsx';
 import { useEffect, useRef } from 'react';
 
-const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
-  <img 
-    src="/assets/blue.avif" 
-    alt="Global Background" 
-    class="w-full h-full object-cover object-center "
-  />
-  <div class="absolute inset-0 bg-white/40"></div>
-</div> 
+const HTML = ` 
   
 
 
 
  
 <section
-class="relative h-[60vh]  bg-cover bg-center"
-style="background-image: url('https://www.pmch-bd.org/images/PMC/slider/sld1.jpg');"
+class="relative h-[60vh] bg-white"
+
 >
-<!-- Dark Overlay -->
+
 
 <!-- Content -->
 <div class="relative max-w-7xl mx-auto px-6 h-full flex items-center">
   
   <!-- Content Box -->
-  <div class="max-w-7xl mx-auto bg-gray-500/10 backdrop-blur-sm text-slate-900 p-8 md:p-10 rounded-xl shadow-lg">
+  <div class="max-w-7xl mx-auto bg-blue-900/30 ring-1 ring-blue-900/20 text-slate-900 p-8 md:p-10 rounded-xl">
     
     <h1 class="text-4xl md:text-5xl font-bold leading-tight">
         About Us

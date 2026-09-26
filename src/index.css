@@ -2,7 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-body { font-family: 'Cormorant Garamond', serif; }
+:root {
+  /* Minimal light brand tokens — single soft teal on white */
+  --brand-50: #F4F8F7;
+  --brand-100: #EAF4F1;
+  --brand-200: #D6EBE6;
+  --brand-300: #C7E5DE;
+  --brand-600: #0F766E;
+  --brand-700: #115E59;
+  --ink: #0F172A;
+  --muted: #64748B;
+  --line: #E7EEEc;
+  /* Trusted blue overlay — used sparingly for image scrims, badges, focus */
+  --overlay-blue: rgba(30, 58, 138, 0.6);
+}
+
+body { font-family: 'Nunito', ui-sans-serif, system-ui, sans-serif; background: #FFFFFF; color: var(--ink); text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+
+button, input, select, textarea { font-family: inherit; }
+
+::selection { background: rgba(30, 58, 138, 0.14); color: #1e3a8a; }
+
+/* Accessible keyboard focus — visible for everyone */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid rgba(30, 58, 138, 0.6);
+  outline-offset: 2px;
+  border-radius: 0.375rem;
+}
+
+/* Reusable polish: deep-blue scrim for hero / image text (white text stays AA) */
+.hero-scrim-blue {
+  background:
+    linear-gradient(to right, rgba(30, 58, 138, 0.6), rgba(30, 58, 138, 0.28) 55%, transparent 85%),
+    linear-gradient(to top, rgba(2, 6, 23, 0.55), transparent 55%);
+}
+
+/* Soft card lift on blue-tinted shadow */
+.lift { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.lift:hover { transform: translateY(-4px); }
 
 /* ============================================================
    GLOBAL RESPONSIVE FOUNDATION — applies to EVERY page

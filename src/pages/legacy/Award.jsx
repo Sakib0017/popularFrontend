@@ -11,10 +11,10 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
-        <div class="max-w-2xl border-l-4 border-emerald-600 pl-6 md:pl-10">
-            <span class="text-emerald-700 font-bold tracking-widest uppercase text-sm mb-2 block">Student Recognition</span>
+        <div class="max-w-2xl border-l-4 border-brand-300 pl-6 md:pl-10">
+            <span class="text-brand-600 font-bold tracking-widest uppercase text-sm mb-2 block">Student Recognition</span>
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight">
-                Academic <span class="text-emerald-600">Awards</span>
+                Academic <span class="text-brand-600">Awards</span>
             </h1>
             <p class="mt-6 text-lg md:text-xl text-slate-700 leading-relaxed font-medium">
                 Celebrating exceptional academic achievements to foster a harmonious, competitive, and inspiring learning environment at  Medical College.
@@ -31,7 +31,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                 <h2 class="text-3xl font-bold text-slate-800 mb-6">Honoring Excellence</h2>
                 <div class="space-y-4 text-slate-600 text-lg leading-relaxed">
                     <p>
-                         Medical College has introduced a variety of <span class="text-emerald-700 font-semibold">distinguished academic awards</span> to encourage students to reach their full potential. These honors recognize consistent performance, research initiatives, and professional conduct.
+                         Medical College has introduced a variety of <span class="text-brand-600 font-semibold">distinguished academic awards</span> to encourage students to reach their full potential. These honors recognize consistent performance, research initiatives, and professional conduct.
                     </p>
                     <p>
                         Our award system is designed to motivate medical graduates to excel not only in examinations but also in clinical practice and social accountability.
@@ -79,7 +79,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
 </div>
 
 
-<div class="bg-white min-h-screen  text-gray-800">
+<div class="bg-white min-h-screen text-slate-900">
     <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col items-center">
   
       <div class="mt-12 max-w-7xl mx-auto grid md:grid-cols-3 w-full overflow-hidden gap-10 rounded-sm ">

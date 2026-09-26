@@ -35,7 +35,7 @@ export default function DoctorForm() {
 
   return (
     <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-sm border overflow-hidden">
-      <div className="bg-gradient-to-r from-[#00984a] to-green-500 px-5 sm:px-6 py-6 sm:py-8"><h2 className="text-xl sm:text-2xl font-bold text-white">{isEdit ? 'Edit Doctor' : 'Add New Doctor'}</h2></div>
+      <div className="bg-brand-50 border-b border-brand-200/60 px-5 sm:px-6 py-6 sm:py-8"><h2 className="text-xl sm:text-2xl font-bold text-slate-800">{isEdit ? 'Edit Doctor' : 'Add New Doctor'}</h2><p className="text-sm text-slate-500 mt-1">Minimal profile editor</p></div>
       <form onSubmit={submit} className="p-5 sm:p-6 md:p-10 space-y-5 sm:space-y-6">
         <div><label className="font-bold text-xs sm:text-sm uppercase">Profile Image</label><input type="file" accept="image/*" onChange={e => setFile(e.target.files[0])} className="mt-2 block text-sm max-w-full" /></div>
         <div className="grid sm:grid-cols-3 gap-4">
@@ -60,7 +60,7 @@ export default function DoctorForm() {
           </select></div>
         <div><label className="font-bold text-sm uppercase">Speech</label>
           <textarea value={form.speech} onChange={e => setForm({ ...form, speech: e.target.value })} rows="4" className="w-full px-4 py-3 border rounded-xl" /></div>
-        <button className="w-full sm:w-auto px-8 sm:px-12 py-3.5 sm:py-4 bg-[#00984a] text-white font-bold rounded-xl text-sm sm:text-base">Save Profile</button>
+        <button className="w-full sm:w-auto px-8 sm:px-12 py-3.5 sm:py-4 bg-brand-600 hover:bg-brand-700 text-white font-bold rounded-xl text-sm sm:text-base">Save Profile</button>
       </form>
     </div>
   );

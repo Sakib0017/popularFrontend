@@ -9,7 +9,7 @@ const HTML = `<div class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
         <!-- Image Section -->
         <div class="w-full lg:w-1/3">
           <div class="group relative">
-            <div class="relative overflow-hidden rounded-xl bg-white shadow-lg">
+            <div class="relative overflow-hidden rounded-xl bg-blue-900/30 ring-1 ring-blue-900/20 shadow-sm">
               <img
                 src=""
                 alt="Governing Body of  Medical College"
@@ -17,7 +17,7 @@ const HTML = `<div class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
               />
   
               <div class="p-4 text-center">
-                <p class="text-sm font-semibold uppercase tracking-wide text-blue-900">
+                <p class="text-sm font-semibold uppercase tracking-wide text-slate-800">
                   Institutional Leadership
                 </p>
               </div>

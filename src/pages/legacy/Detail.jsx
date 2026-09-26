@@ -3,7 +3,7 @@ import Footer from '../../components/Footer.jsx';
 import { useEffect, useRef } from 'react';
 
 const HTML = `<section class="max-w-6xl mx-auto py-16 px-6">
-    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden flex flex-col md:flex-row">
+    <div class="bg-blue-900/30 rounded-2xl shadow-sm border border-blue-900/20 overflow-hidden flex flex-col md:flex-row">
         
         <div class="md:w-1/3 bg-slate-50 p-10 flex items-center justify-center">
             <div class="relative">
@@ -17,15 +17,15 @@ const HTML = `<section class="max-w-6xl mx-auto py-16 px-6">
         </div>
 
         <div class="md:w-2/3 p-10 md:p-16 flex flex-col justify-center">
-            <div class="inline-block px-3 py-1 bg-blue-50 text-blue-600 text-xs font-bold tracking-widest uppercase rounded-full mb-4">
+            <div class="inline-block px-3 py-1 bg-brand-100 text-brand-600 text-xs font-bold tracking-widest uppercase rounded-full mb-4">
                  Department
             </div>
             
             <h1 class="text-4xl font-serif text-slate-900 mb-2"></h1>
-            <p class="text-xl text-blue-800 font-light mb-8"></p>
-            <p class="text-xl text-blue-800 font-light mb-8"></p>
+            <p class="text-xl text-slate-600 font-light mb-8"></p>
+            <p class="text-xl text-slate-600 font-light mb-8"></p>
             
-            <div class="border-l-4 border-blue-200 pl-6 py-2 italic text-lg text-slate-600 leading-relaxed">
+            <div class="border-l-4 border-brand-200 pl-6 py-2 italic text-lg text-slate-600 leading-relaxed">
                 ""
             </div>
         </div>

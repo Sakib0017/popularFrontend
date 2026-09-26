@@ -6,7 +6,7 @@ const HTML = `<main class="py-12 px-4">
     
     <div class="max-w-7xl mx-auto text-center mb-10">
         <h1 class="text-4xl font-bold text-gray-800">Our Committees</h1>
-        <div class="h-1 w-20 bg-[#00984a] mx-auto mt-4"></div>
+        <div class="h-1 w-20 bg-brand-300 mx-auto mt-4"></div>
     </div>
 
     
@@ -17,11 +17,11 @@ const HTML = `<main class="py-12 px-4">
 
         
 
-        <div class="bg-white rounded-xl shadow-lg  border border-gray-200 overflow-hidden h-fit transition-transform hover:scale-[1.01]">
+        <div class="bg-blue-900/30 rounded-xl shadow-sm border border-blue-900/20 overflow-hidden h-fit transition-transform hover:scale-[1.01]">
             <table class="min-w-full divide-y divide-gray-200">
                 <thead class="bg-gray-50">
                     <tr>
-                        <th colspan="2" scope="colgroup" class="px-6 py-5 text-center text-xl font-bold text-slate-900  uppercase tracking-widest border-b border-green-700">
+                        <th colspan="2" scope="colgroup" class="px-6 py-5 text-center text-xl font-bold text-slate-900  uppercase tracking-widest border-b border-brand-300/60">
                             <span class="block whitespace-pre-line"></span>
                         </th>
                     </tr>

@@ -11,8 +11,8 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
-        <div class="max-w-2xl border-l-4 border-emerald-600 pl-6 md:pl-10">
-            <span class="text-emerald-700 font-bold tracking-widest uppercase text-sm mb-2 block">Examination Policies</span>
+        <div class="max-w-2xl border-l-4 border-brand-300 pl-6 md:pl-10">
+            <span class="text-brand-600 font-bold tracking-widest uppercase text-sm mb-2 block">Examination Policies</span>
             <h1 class="text-3xl md:text-3xl lg:text-3xl font-extrabold text-slate-900 leading-tight">
               Eligibility for Appearing in
               Professional (University) Examinations 
@@ -32,7 +32,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
               <h2 class="text-3xl font-bold text-slate-800 mb-6">Candidate Pre-requisites</h2>
               <div class="space-y-6">
                   <div class="flex gap-4">
-                      <div class="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-700 font-bold">1</div>
+                      <div class="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center text-brand-600 font-bold">1</div>
                       <div>
                           <h3 class="text-lg font-bold text-slate-800">Attendance Requirement</h3>
                           <p class="text-slate-600">Minimum 75% attendance in all classes (Lecture, Tutorial, and Practical/Clinical) for each subject.</p>
@@ -40,7 +40,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                   </div>
 
                   <div class="flex gap-4">
-                      <div class="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-700 font-bold">2</div>
+                      <div class="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center text-brand-600 font-bold">2</div>
                       <div>
                           <h3 class="text-lg font-bold text-slate-800">Internal Assessment</h3>
                           <p class="text-slate-600">Successful completion of all items, card-ending exams, and term-ending assessments with a qualifying score.</p>
@@ -53,7 +53,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
               <h2 class="text-3xl font-bold text-slate-800 mb-6">Additional Criteria</h2>
               <div class="space-y-6">
                   <div class="flex gap-4">
-                      <div class="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-700 font-bold">3</div>
+                      <div class="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center text-brand-600 font-bold">3</div>
                       <div>
                           <h3 class="text-lg font-bold text-slate-800">Clearance & Conduct</h3>
                           <p class="text-slate-600">Certificate of good conduct from the respective department heads and clearance of all college dues.</p>
@@ -61,7 +61,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                   </div>
 
                   <div class="flex gap-4">
-                      <div class="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-700 font-bold">4</div>
+                      <div class="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center text-brand-600 font-bold">4</div>
                       <div>
                           <h3 class="text-lg font-bold text-slate-800">Professional Ethics</h3>
                           <p class="text-slate-600">Adherence to the college code of ethics and demonstration of professional behavior during clinical rotations.</p>
@@ -78,28 +78,28 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
   
 
 <section class="relative bg-white py-24 px-6 overflow-hidden ">
-  <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(#00984a 1px, transparent 1px); background-size: 40px 40px;"></div>
+  <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(#0F766E 1px, transparent 1px); background-size: 40px 40px;"></div>
 
   <div class="max-w-6xl mx-auto relative z-10">
     <div class="text-center mb-16">
-      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold uppercase tracking-widest mb-6 border border-emerald-100">
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-50 text-brand-600 text-xs font-bold uppercase tracking-widest mb-6 border border-emerald-100">
         <span class="relative flex h-2 w-2">
           <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-300"></span>
         </span>
         Professional Eligibility
       </div>
       <h2 class="text-4xl md:text-5xl font-serif text-slate-900 leading-tight">
-        Examination <span class="text-[#00984a] italic italic">Prerequisites</span>
+        Examination <span class="text-brand-600 italic italic">Prerequisites</span>
       </h2>
       <p class="text-slate-500 mt-4 font-light max-w-xl mx-auto">Candidates must fulfill the following regulatory criteria to sit for the Professional MBBS Examinations.</p>
     </div>
 
     <div class="flex flex-wrap justify-center gap-4 mb-12">
-      <button onclick="openEligibility(event, 'e1')" class="elig-btn active px-6 py-3 rounded-xl border-2 border-blue-600 bg-blue-50 text-blue-700 font-bold text-sm transition-all">1st Prof</button>
-      <button onclick="openEligibility(event, 'e2')" class="elig-btn px-6 py-3 rounded-xl border-2 border-slate-100 bg-white text-slate-400 font-bold text-sm hover:border-blue-200 transition-all">2nd Prof</button>
-      <button onclick="openEligibility(event, 'e3')" class="elig-btn px-6 py-3 rounded-xl border-2 border-slate-100 bg-white text-slate-400 font-bold text-sm hover:border-blue-200 transition-all">3rd Prof</button>
-      <button onclick="openEligibility(event, 'e4')" class="elig-btn px-6 py-3 rounded-xl border-2 border-slate-100 bg-white text-slate-400 font-bold text-sm hover:border-blue-200 transition-all">4th Prof</button>
+      <button onclick="openEligibility(event, 'e1')" class="elig-btn active px-6 py-3 rounded-xl border-2 border-brand-300 bg-brand-100 text-blue-700 font-bold text-sm transition-all">1st Prof</button>
+      <button onclick="openEligibility(event, 'e2')" class="elig-btn px-6 py-3 rounded-xl border-2 border-slate-100 bg-white text-slate-400 font-bold text-sm hover:border-brand-200 transition-all">2nd Prof</button>
+      <button onclick="openEligibility(event, 'e3')" class="elig-btn px-6 py-3 rounded-xl border-2 border-slate-100 bg-white text-slate-400 font-bold text-sm hover:border-brand-200 transition-all">3rd Prof</button>
+      <button onclick="openEligibility(event, 'e4')" class="elig-btn px-6 py-3 rounded-xl border-2 border-slate-100 bg-white text-slate-400 font-bold text-sm hover:border-brand-200 transition-all">4th Prof</button>
     </div>
 
     <div class="max-w-7xl mx-auto">
@@ -111,9 +111,9 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
         </div>
 
         <ul class="space-y-4" id="elig-list">
-          <li class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-slate-100 shadow-sm transition-transform hover:scale-[1.02]">
+          <li class="flex items-start gap-4 p-4 rounded-2xl bg-blue-900/30 border border-blue-900/20 shadow-sm transition-transform hover:scale-[1.02]">
             <div class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
-              <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+              <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
             </div>
             <div>
               <p class="text-slate-700 font-medium">Course Completion</p>
@@ -121,9 +121,9 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
             </div>
           </li>
 
-          <li class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-slate-100 shadow-sm transition-transform hover:scale-[1.02]">
+          <li class="flex items-start gap-4 p-4 rounded-2xl bg-blue-900/30 border border-blue-900/20 shadow-sm transition-transform hover:scale-[1.02]">
             <div class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
-              <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+              <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
             </div>
             <div>
               <p class="text-slate-700 font-medium">Attendance Threshold (75%)</p>
@@ -131,9 +131,9 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
             </div>
           </li>
 
-          <li class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-slate-100 shadow-sm transition-transform hover:scale-[1.02]">
+          <li class="flex items-start gap-4 p-4 rounded-2xl bg-blue-900/30 border border-blue-900/20 shadow-sm transition-transform hover:scale-[1.02]">
             <div class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
-              <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+              <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
             </div>
             <div>
               <p class="text-slate-700 font-medium">Academic Performance (60%)</p>
@@ -141,9 +141,9 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
             </div>
           </li>
 
-          <li class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-slate-100 shadow-sm transition-transform hover:scale-[1.02]">
+          <li class="flex items-start gap-4 p-4 rounded-2xl bg-blue-900/30 border border-blue-900/20 shadow-sm transition-transform hover:scale-[1.02]">
             <div class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center mt-1">
-              <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+              <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
             </div>
             <div>
               <p class="text-slate-700 font-medium">Conduct & Dues Clearance</p>
@@ -168,11 +168,11 @@ function openEligibility(evt, phaseId) {
   // UI Feedback for Buttons
   const buttons = document.getElementsByClassName("elig-btn");
   for (let i = 0; i < buttons.length; i++) {
-    buttons[i].classList.remove("border-blue-600", "bg-blue-50", "text-blue-700", "active");
+    buttons[i].classList.remove("border-brand-300", "bg-brand-100", "text-blue-700", "active");
     buttons[i].classList.add("border-slate-100", "bg-white", "text-slate-400");
   }
 
-  evt.currentTarget.classList.add("border-blue-600", "bg-blue-50", "text-blue-700", "active");
+  evt.currentTarget.classList.add("border-brand-300", "bg-brand-100", "text-blue-700", "active");
   evt.currentTarget.classList.remove("border-slate-100", "bg-white", "text-slate-400");
 
   // Update Title with animation

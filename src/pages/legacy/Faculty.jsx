@@ -3,15 +3,15 @@ import Footer from '../../components/Footer.jsx';
 import { useEffect, useRef } from 'react';
 
 const HTML = `<section
-  class="relative h-[60vh]  bg-cover bg-center"
-  style="background-image: url('https://www.pmch-bd.org/images/PMC/departments/physiology1.jpg');">
-<!-- Dark Overlay -->
+  class="relative h-[60vh] bg-white"
+  >
+
 
 <!-- Content -->
 <div class="relative max-w-7xl mx-auto px-6 h-full flex items-center">
 
 <!-- Content Box -->
-<div class="max-w-xl me-auto  backdrop-blur-sm text-white p-8 md:p-10">
+<div class="max-w-xl me-auto text-slate-900 bg-blue-900/30 ring-1 ring-blue-900/20 p-8 md:p-10 rounded-xl">
   
 
 
@@ -64,17 +64,17 @@ const HTML = `<section
       <table class="w-full text-start border-collapse">
         <thead>
           <tr class="bg-gray-50 border-b border-gray-200">
-            <th colspan="2" class="px-6 py-4 text-xs font-bold uppercase tracking-widest text-blue-900 border-r border-gray-200 w-1/2">
+            <th colspan="2" class="px-6 py-4 text-xs font-bold uppercase tracking-widest text-slate-800 border-r border-gray-200 w-1/2">
               From left to right From first Left Side Picture:
             </th>
             
           </tr>
           <tr class="bg-gray-50 border-b border-gray-200">
-            <th class="px-6 py-4 text-xs font-bold uppercase tracking-widest text-blue-900 border-r border-gray-200 w-1/2">
+            <th class="px-6 py-4 text-xs font-bold uppercase tracking-widest text-slate-800 border-r border-gray-200 w-1/2">
               First row:
             </th>
             
-            <th class="px-6 py-4 text-xs font-bold uppercase tracking-widest text-blue-900 w-1/2">
+            <th class="px-6 py-4 text-xs font-bold uppercase tracking-widest text-slate-800 w-1/2">
               Second row (Lecturers):
             </th>
           </tr>

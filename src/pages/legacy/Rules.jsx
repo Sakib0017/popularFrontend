@@ -11,10 +11,10 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
   </div>
 
   <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
-      <div class="max-w-2xl border-l-4 border-emerald-600 pl-6 md:pl-10">
-          <span class="text-emerald-700 font-bold tracking-widest uppercase text-sm mb-2 block">Institutional Conduct</span>
+      <div class="max-w-2xl border-l-4 border-brand-300 pl-6 md:pl-10">
+          <span class="text-brand-600 font-bold tracking-widest uppercase text-sm mb-2 block">Institutional Conduct</span>
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight">
-              Rules & <span class="text-emerald-600">Regulations</span>
+              Rules & <span class="text-brand-600">Regulations</span>
           </h1>
           <p class="mt-6 text-lg md:text-xl text-slate-700 leading-relaxed font-medium">
               Established guidelines to maintain a disciplined, professional, and productive academic environment for all members of the  Medical College community.
@@ -31,7 +31,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
               <h2 class="text-3xl font-bold text-slate-800 mb-6">Code of Conduct</h2>
               <div class="space-y-4 text-slate-600 text-lg leading-relaxed">
                   <p>
-                      Students are expected to adhere to the <span class="text-emerald-700 font-semibold">highest standards of discipline</span>. The college administration emphasizes punctuality, professional attire, and respectful interaction within the campus.
+                      Students are expected to adhere to the <span class="text-brand-600 font-semibold">highest standards of discipline</span>. The college administration emphasizes punctuality, professional attire, and respectful interaction within the campus.
                   </p>
                   <p>
                       Violation of rules regarding attendance, campus property, or academic integrity may lead to disciplinary action as per the decision of the Academic Council.
@@ -40,19 +40,19 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
               
               <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm border border-slate-200">
-                      <span class="w-3 h-3 bg-emerald-500 rounded-full mr-2"></span>
+                      <span class="w-3 h-3 bg-brand-300 rounded-full mr-2"></span>
                       <span class="text-sm font-bold text-slate-700">Mandatory Uniform</span>
                   </div>
                   <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm border border-slate-200">
-                      <span class="w-3 h-3 bg-emerald-500 rounded-full mr-2"></span>
+                      <span class="w-3 h-3 bg-brand-300 rounded-full mr-2"></span>
                       <span class="text-sm font-bold text-slate-700">Identity Card Requirement</span>
                   </div>
                   <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm border border-slate-200">
-                      <span class="w-3 h-3 bg-emerald-500 rounded-full mr-2"></span>
+                      <span class="w-3 h-3 bg-brand-300 rounded-full mr-2"></span>
                       <span class="text-sm font-bold text-slate-700">Strict Punctuality</span>
                   </div>
                   <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm border border-slate-200">
-                      <span class="w-3 h-3 bg-emerald-500 rounded-full mr-2"></span>
+                      <span class="w-3 h-3 bg-brand-300 rounded-full mr-2"></span>
                       <span class="text-sm font-bold text-slate-700">Smoke-Free Campus</span>
                   </div>
               </div>

@@ -15,7 +15,7 @@ export default function Doctors() {
     <div className="max-w-7xl mx-auto">
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 mb-4 sm:mb-6">
         <h3 className="text-lg sm:text-xl font-bold text-gray-700">All Registered Specialists</h3>
-        <Link to="/admin/doctors/new" className="bg-[#00984a] text-white px-5 py-2.5 rounded-xl font-semibold shadow-md hover:bg-green-700 text-center text-sm sm:text-base shrink-0"><i className="fas fa-plus mr-2 text-sm"></i> Add New Doctor</Link>
+        <Link to="/admin/doctors/new" className="bg-brand-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-brand-700 text-center text-sm sm:text-base shrink-0"><i className="fas fa-plus mr-2 text-sm"></i> Add New Doctor</Link>
       </div>
       {/* Mobile cards */}
       <div className="md:hidden space-y-3">
@@ -25,10 +25,10 @@ export default function Doctors() {
             <div className="min-w-0 flex-1">
               <p className="text-sm font-bold truncate">{d.title} {d.name}</p>
               <p className="text-xs text-gray-500 truncate">{d.designation} • {d.department}</p>
-              <p className="text-[11px] text-green-600">ID: #{d._id.slice(-6)}</p>
+              <p className="text-[11px] text-brand-600">ID: #{d._id.slice(-6)}</p>
             </div>
             <div className="flex flex-col gap-1 shrink-0">
-              <Link to={`/admin/doctors/${d._id}`} aria-label="Edit" className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg text-center"><i className="fas fa-edit"></i></Link>
+              <Link to={`/admin/doctors/${d._id}`} aria-label="Edit" className="p-2 text-brand-600 hover:bg-brand-50 rounded-lg text-center"><i className="fas fa-edit"></i></Link>
               <button onClick={() => del(d._id)} aria-label="Delete" className="p-2 text-red-600 hover:bg-red-50 rounded-lg"><i className="fas fa-trash-alt"></i></button>
             </div>
           </div>
@@ -44,15 +44,15 @@ export default function Doctors() {
             </tr></thead>
             <tbody className="divide-y">
               {list.map(d => (
-                <tr key={d._id} className="hover:bg-green-50/30">
-                  <td className="px-6 py-4"><div className="flex items-center gap-3"><img src={imgUrl(d.image)} className="h-12 w-12 rounded-full object-cover border" alt="" /><div><p className="text-sm font-bold">{d.title} {d.name}</p><p className="text-xs text-green-600">ID: #{d._id.slice(-6)}</p></div></div></td>
+                <tr key={d._id} className="hover:bg-brand-50/60">
+                  <td className="px-6 py-4"><div className="flex items-center gap-3"><img src={imgUrl(d.image)} className="h-12 w-12 rounded-full object-cover border" alt="" /><div><p className="text-sm font-bold">{d.title} {d.name}</p><p className="text-xs text-brand-600">ID: #{d._id.slice(-6)}</p></div></div></td>
                   <td className="px-6 py-4 text-sm">{d.designation}</td>
                   <td className="px-6 py-4 text-sm">{d.department}</td>
                   <td className="px-6 py-4 text-sm">{d.title}</td>
                   <td className="px-6 py-4 text-sm">{d.type}</td>
                   <td className="px-6 py-4 text-sm max-w-[200px] truncate">{d.speech}</td>
                   <td className="px-6 py-4 text-center"><div className="flex justify-center gap-2">
-                    <Link to={`/admin/doctors/${d._id}`} className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg"><i className="fas fa-edit"></i></Link>
+                    <Link to={`/admin/doctors/${d._id}`} className="p-2 text-brand-600 hover:bg-brand-50 rounded-lg"><i className="fas fa-edit"></i></Link>
                     <button onClick={() => del(d._id)} className="p-2 text-red-600 hover:bg-red-50 rounded-lg"><i className="fas fa-trash-alt"></i></button>
                   </div></td>
                 </tr>

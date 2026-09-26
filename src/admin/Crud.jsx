@@ -28,7 +28,7 @@ export default function Crud({ endpoint, label, fields }) {
               : <input value={form[f.key] || ''} onChange={e => setForm({ ...form, [f.key]: e.target.value })} required className="mt-1 w-full border rounded-xl px-4 py-2 text-sm" />}
           </div>
         ))}
-        <button className="w-full bg-[#00984a] text-white font-bold py-2.5 rounded-xl text-sm sm:text-base">{editId ? 'Update' : 'Save'}</button>
+        <button className="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-2.5 rounded-xl text-sm sm:text-base">{editId ? 'Update' : 'Save'}</button>
         {editId && <button type="button" onClick={() => { setEditId(null); setForm({}); }} className="w-full text-sm text-gray-500">Cancel</button>}
       </form>
       <div className="lg:col-span-2 bg-white rounded-2xl border overflow-hidden h-fit order-2">
@@ -40,7 +40,7 @@ export default function Crud({ endpoint, label, fields }) {
                 <tr key={r._id}>
                   <td className="px-4 sm:px-6 py-3 text-sm break-words"><b>{r.name || r.title}</b>{r.chairman && <span className="text-gray-500"> — {r.chairman}</span>}</td>
                   <td className="px-4 sm:px-6 py-3 text-right whitespace-nowrap">
-                    <button onClick={() => { setEditId(r._id); const o = {}; fields.forEach(f => o[f.key] = r[f.key] || ''); setForm(o); }} aria-label="Edit" className="p-2 text-blue-600"><i className="fas fa-edit"></i></button>
+                    <button onClick={() => { setEditId(r._id); const o = {}; fields.forEach(f => o[f.key] = r[f.key] || ''); setForm(o); }} aria-label="Edit" className="p-2 text-brand-600"><i className="fas fa-edit"></i></button>
                     <button onClick={async () => { if (confirm('Delete?')) { await api.delete(`${endpoint}/${r._id}`); load(); } }} aria-label="Delete" className="p-2 text-red-600"><i className="fas fa-trash-alt"></i></button>
                   </td>
                 </tr>

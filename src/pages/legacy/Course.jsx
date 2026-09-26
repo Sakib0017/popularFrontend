@@ -11,8 +11,8 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
   </div>
 
   <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
-      <div class="max-w-3xl border-l-4 border-emerald-600 pl-6 md:pl-10">
-          <span class="text-emerald-700 font-bold tracking-widest uppercase text-sm mb-2 block">Academic Curriculum</span>
+      <div class="max-w-3xl border-l-4 border-brand-300 pl-6 md:pl-10">
+          <span class="text-brand-600 font-bold tracking-widest uppercase text-sm mb-2 block">Academic Curriculum</span>
           <h1 class="text-3xl md:text-3xl lg:text-3xl font-extrabold text-slate-900 leading-tight">
             Course Structure, Duration
             & Assessment in detail 
@@ -34,16 +34,16 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
         <div class="lg:col-span-1 space-y-8">
           <div>
               <div class="grid md:grid-cols-1 gap-6">
-                  <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
-                      <h3 class="text-emerald-700 font-bold uppercase text-xs tracking-wider mb-2">Academic Degree</h3>
+                  <div class="bg-blue-900/30 p-6 rounded-xl shadow-sm border border-blue-900/20">
+                      <h3 class="text-brand-600 font-bold uppercase text-xs tracking-wider mb-2">Academic Degree</h3>
                       <p class="text-slate-700 font-semibold">Bachelor of Medicine & Bachelor of Surgery (MBBS)</p>
                   </div>
-                  <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
-                      <h3 class="text-emerald-700 font-bold uppercase text-xs tracking-wider mb-2">Medium of Instruction</h3>
+                  <div class="bg-blue-900/30 p-6 rounded-xl shadow-sm border border-blue-900/20">
+                      <h3 class="text-brand-600 font-bold uppercase text-xs tracking-wider mb-2">Medium of Instruction</h3>
                       <p class="text-slate-700 font-semibold">English</p>
                   </div>
-                  <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
-                      <h3 class="text-emerald-700 font-bold uppercase text-xs tracking-wider mb-2">Duration</h3>
+                  <div class="bg-blue-900/30 p-6 rounded-xl shadow-sm border border-blue-900/20">
+                      <h3 class="text-brand-600 font-bold uppercase text-xs tracking-wider mb-2">Duration</h3>
                       <p class="text-slate-700 font-semibold">5 Years + 1 Year Mandatory Internship</p>
                   </div>
                 
@@ -55,8 +55,8 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
           <div class="lg:col-span-2 space-y-8">
              
 
-              <div class="bg-emerald-50 border-r-4 border-emerald-600 p-6 rounded-r-xl">
-                  <h3 class="text-lg font-bold text-emerald-900 mb-2">Basic Information about MBBS Course</h3>
+              <div class="bg-brand-50 border-r-4 border-brand-300 p-6 rounded-r-xl">
+                  <h3 class="text-lg font-bold text-slate-800 mb-2">Basic Information about MBBS Course</h3>
                   <ul class="space-y-2 text-emerald-800">
                       <li class="flex items-start">
                           <span class="mr-2">•</span>
@@ -102,37 +102,37 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
     
 
 <section class="relative bg-white py-24 px-6 overflow-hidden">
-  <div class="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-blue-50/50 to-transparent"></div>
-  <div class="absolute -top-24 -right-24 w-96 h-96 bg-[#00984a]/5 rounded-full blur-3xl"></div>
+  <div class="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-brand-100/50 to-transparent"></div>
+  <div class="absolute -top-24 -right-24 w-96 h-96 bg-brand-100/50 rounded-full blur-3xl"></div>
 
   <div class="max-w-6xl mx-auto relative z-10">
     <div class="text-center mb-16">
-      <div class="inline-block px-4 py-1.5 mb-4 text-xs font-bold tracking-[0.2em] text-blue-600 uppercase bg-blue-50 rounded-full">
+      <div class="inline-block px-4 py-1.5 mb-4 text-xs font-bold tracking-[0.2em] text-brand-600 uppercase bg-brand-100 rounded-full">
         The MBBS course is divided into four phase.
       </div>
-      <h2 class="text-4xl md:text-5xl font-serif text-slate-900 mb-6">The MBBS <span class="text-[#00984a] italic">Journey</span></h2>
+      <h2 class="text-4xl md:text-5xl font-serif text-slate-900 mb-6">The MBBS <span class="text-brand-600 italic">Journey</span></h2>
       <p class="text-slate-500 max-w-2xl mx-auto font-light text-lg">
         A comprehensive four-phase academic structure designed to transform students into clinical experts.
       </p>
     </div>
 
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-      <button onclick="openPhase(event, 'p1')" class="phase-btn active group relative p-6 rounded-2xl border transition-all duration-300 text-left bg-white shadow-sm hover:shadow-md border-blue-600 ring-1 ring-blue-600">
-        <span class="block text-xs font-bold text-blue-600 uppercase mb-2 tracking-tighter">Phase I</span>
+      <button onclick="openPhase(event, 'p1')" class="phase-btn active group relative p-6 rounded-2xl border transition-all duration-300 text-left bg-white shadow-sm hover:shadow-md border-brand-300 ring-1 ring-brand-300">
+        <span class="block text-xs font-bold text-brand-600 uppercase mb-2 tracking-tighter">Phase I</span>
         <span class="block text-sm font-semibold text-slate-800 leading-tight">1st Professional</span>
       </button>
 
-      <button onclick="openPhase(event, 'p2')" class="phase-btn group relative p-6 rounded-2xl border transition-all duration-300 text-left bg-white border-slate-100 hover:border-blue-200">
+      <button onclick="openPhase(event, 'p2')" class="phase-btn group relative p-6 rounded-2xl border transition-all duration-300 text-left bg-white border-slate-100 hover:border-brand-200">
         <span class="block text-xs font-bold text-slate-400 uppercase mb-2 tracking-tighter">Phase II</span>
         <span class="block text-sm font-semibold text-slate-700 leading-tight">2nd Professional</span>
       </button>
 
-      <button onclick="openPhase(event, 'p3')" class="phase-btn group relative p-6 rounded-2xl border transition-all duration-300 text-left bg-white border-slate-100 hover:border-blue-200">
+      <button onclick="openPhase(event, 'p3')" class="phase-btn group relative p-6 rounded-2xl border transition-all duration-300 text-left bg-white border-slate-100 hover:border-brand-200">
         <span class="block text-xs font-bold text-slate-400 uppercase mb-2 tracking-tighter">Phase III</span>
         <span class="block text-sm font-semibold text-slate-700 leading-tight">3rd Professional</span>
       </button>
 
-      <button onclick="openPhase(event, 'p4')" class="phase-btn group relative p-6 rounded-2xl border transition-all duration-300 text-left bg-white border-slate-100 hover:border-blue-200">
+      <button onclick="openPhase(event, 'p4')" class="phase-btn group relative p-6 rounded-2xl border transition-all duration-300 text-left bg-white border-slate-100 hover:border-brand-200">
         <span class="block text-xs font-bold text-slate-400 uppercase mb-2 tracking-tighter">Phase IV</span>
         <span class="block text-sm font-semibold text-slate-700 leading-tight">Final Professional</span>
       </button>
@@ -145,7 +145,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
           <div class="md:w-1/3">
             <div class="text-6xl font-serif text-blue-100 mb-4">01</div>
             <h3 class="text-2xl font-bold text-slate-900 mb-2">Pre-Clinical Phase</h3>
-            <p class="text-blue-600 font-medium">Duration: 1.5 Years</p>
+            <p class="text-brand-600 font-medium">Duration: 1.5 Years</p>
           </div>
           <div class="md:w-2/3 space-y-8">
             <div>
@@ -171,7 +171,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
           <div class="md:w-1/3">
             <div class="text-6xl font-serif text-blue-100 mb-4">02</div>
             <h3 class="text-2xl font-bold text-slate-900 mb-2">Para-Clinical Intro</h3>
-            <p class="text-blue-600 font-medium">Duration: 1.0 Year</p>
+            <p class="text-brand-600 font-medium">Duration: 1.0 Year</p>
           </div>
           <div class="md:w-2/3 space-y-8">
              <div>
@@ -196,7 +196,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
           <div class="md:w-1/3">
             <div class="text-6xl font-serif text-blue-100 mb-4">03</div>
             <h3 class="text-2xl font-bold text-slate-900 mb-2">Para-Clinical Mastery</h3>
-            <p class="text-blue-600 font-medium">Duration: 1.0 Year</p>
+            <p class="text-brand-600 font-medium">Duration: 1.0 Year</p>
           </div>
           <div class="md:w-2/3 space-y-8">
             <div>
@@ -222,7 +222,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
           <div class="md:w-1/3">
             <div class="text-6xl font-serif text-blue-100 mb-4">04</div>
             <h3 class="text-2xl font-bold text-slate-900 mb-2">Clinical Final</h3>
-            <p class="text-blue-600 font-medium">Duration: 1.5 Years</p>
+            <p class="text-brand-600 font-medium">Duration: 1.5 Years</p>
           </div>
           <div class="md:w-2/3 space-y-8">
             <div>
@@ -250,13 +250,13 @@ function openPhase(evt, phaseName) {
 
   const buttons = document.getElementsByClassName("phase-btn");
   for (let i = 0; i < buttons.length; i++) {
-    buttons[i].classList.remove("border-blue-600", "ring-1", "ring-blue-600", "active");
-    buttons[i].querySelector('span:first-child').classList.replace("text-blue-600", "text-slate-400");
+    buttons[i].classList.remove("border-brand-300", "ring-1", "ring-brand-300", "active");
+    buttons[i].querySelector('span:first-child').classList.replace("text-brand-600", "text-slate-400");
   }
 
   document.getElementById(phaseName).classList.remove("hidden");
-  evt.currentTarget.classList.add("border-blue-600", "ring-1", "ring-blue-600", "active");
-  evt.currentTarget.querySelector('span:first-child').classList.replace("text-slate-400", "text-blue-600");
+  evt.currentTarget.classList.add("border-brand-300", "ring-1", "ring-brand-300", "active");
+  evt.currentTarget.querySelector('span:first-child').classList.replace("text-slate-400", "text-brand-600");
 }
 </script>
   

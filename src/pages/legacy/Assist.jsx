@@ -11,8 +11,8 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
-        <div class="max-w-2xl border-l-4 border-emerald-600 pl-6 md:pl-10">
-            <span class="text-emerald-700 font-bold tracking-widest uppercase text-sm mb-2 block">Student Welfare</span>
+        <div class="max-w-2xl border-l-4 border-brand-300 pl-6 md:pl-10">
+            <span class="text-brand-600 font-bold tracking-widest uppercase text-sm mb-2 block">Student Welfare</span>
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight">
                 Student Assistance Center
             </h1>
@@ -39,15 +39,15 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
                 
                 <div class="mt-8 flex flex-wrap gap-4">
                     <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm border border-slate-200">
-                        <span class="w-3 h-3 bg-emerald-500 rounded-full mr-2"></span>
+                        <span class="w-3 h-3 bg-brand-300 rounded-full mr-2"></span>
                         <span class="text-sm font-bold text-slate-700">Academic Tutoring</span>
                     </div>
                     <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm border border-slate-200">
-                        <span class="w-3 h-3 bg-emerald-500 rounded-full mr-2"></span>
+                        <span class="w-3 h-3 bg-brand-300 rounded-full mr-2"></span>
                         <span class="text-sm font-bold text-slate-700">Personal Counseling</span>
                     </div>
                     <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm border border-slate-200">
-                        <span class="w-3 h-3 bg-emerald-500 rounded-full mr-2"></span>
+                        <span class="w-3 h-3 bg-brand-300 rounded-full mr-2"></span>
                         <span class="text-sm font-bold text-slate-700">Skill Development</span>
                     </div>
                 </div>

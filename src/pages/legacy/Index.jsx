@@ -2,49 +2,37 @@ import Navbar from '../../components/Navbar.jsx';
 import Footer from '../../components/Footer.jsx';
 import { useEffect, useRef } from 'react';
 
-const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
-  <img 
-    src="/assets/blue.avif" 
-    alt="Global Background" 
-    class="w-full h-full object-cover object-center "
-  />
-  <div class="absolute inset-0 bg-white/10"></div>
-</div>
+const HTML = `
 
 <div class="relative z-10 w-full">
 
-  <section class="relative h-[65vh] min-h-[550px] w-full overflow-hidden">
+  <section class="relative h-[65vh] min-h-[550px] w-full overflow-hidden bg-white">
     <div class="absolute inset-0 z-0">
-      <img 
-        src="/assets/bg.jpeg" 
-        alt=" Medical College" 
-        class="h-full w-full object-cover object-center scale-100 transition-transform duration-[10000ms] hover:scale-105"
-      />
-      <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/60 to-transparent"></div>
+      
     </div>
 
     <div class="relative z-10 mx-auto flex h-full max-w-7xl items-center px-6 md:px-12">
       <div class="max-w-2xl  p-8 md:p-10 rounded-2xl   space-y-6">
         <div class="space-y-3">
-          <h1 class="text-4xl  leading-tight tracking-tight text-white md:text-5xl ">
+          <h1 class="text-4xl leading-tight tracking-tight text-slate-900 md:text-5xl">
             Academic Faculty
           </h1>
-          <div class="h-1 w-20 bg-emerald-900 rounded-full"></div>
+          <div class="h-1 w-20 bg-brand-600 rounded-full"></div>
         </div>
 
-        <p class="text-lg leading-relaxed text-slate-50 md:text-xl font-light">
+        <p class="text-lg leading-relaxed text-slate-600 md:text-xl font-light">
            Medical College can boast of a faculty which certainly is well reputed and respected nationally and internationally for their devotion and professionalism. It is also important to point out that many of the faculty members are actively involved with postgraduate teaching, learning and examination programs in addition to their undergraduate responsibilities.
         </p>
 
         <div class="flex flex-wrap gap-4 pt-2">
-          <a href="#" class="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-emerald-900 px-8 py-3.5 text-base font-semibold text-white transition-all duration-300 hover:bg-[#007d3c] shadow-lg shadow-emerald-900/20 active:scale-95">
+          <a href="#" class="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-brand-600 px-8 py-3.5 text-base font-semibold text-white transition-all duration-300 hover:bg-brand-700 shadow-lg shadow-blue-900/20 ring-1 ring-blue-900/20 active:scale-95">
             <span>Apply Now</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </a>
 
-          <a href="#" class="inline-flex items-center justify-center rounded-full border border-white/40 bg-white/10 px-8 py-3.5 text-base font-semibold text-white backdrop-blur-md transition-all duration-300 hover:bg-white hover:text-slate-950 active:scale-95">
+          <a href="#" class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-8 py-3.5 text-base font-semibold text-slate-800 transition-all duration-300 hover:bg-slate-900 hover:text-white active:scale-95">
             Read More
           </a>
         </div>
@@ -52,9 +40,9 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
     </div>
   </section>
 
-  <section class="relative bg-transparent py-24 px-6 md:px-12 overflow-hidden">
+  <section class="relative bg-white py-24 px-6 md:px-12 overflow-hidden">
     <div class="absolute top-0 right-0 -translate-y-12 translate-x-12 blur-[120px] opacity-10 pointer-events-none">
-      <div class="aspect-square w-96 rounded-full bg-emerald-900"></div>
+      <div class="aspect-square w-96 rounded-full bg-brand-600"></div>
     </div>
 
     <div class="max-w-7xl mx-auto">
@@ -77,7 +65,7 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
           </div>
 
           <div class="pt-2">
-            <a href="#" class="group inline-flex items-center gap-2 text-slate-500 hover:text-emerald-900 font-semibold transition-colors duration-300">
+            <a href="#" class="group inline-flex items-center gap-2 text-slate-500 hover:text-slate-800 font-semibold transition-colors duration-300">
               <span>Learn more about us</span>
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -89,9 +77,9 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
         <div class="w-full lg:w-1/2 flex items-center justify-center">
           <div class="relative w-full group max-w-2xl">
             <div class="absolute -inset-4  rounded-3xl -z-10 group-hover:scale-[1.01] transition-transform duration-500"></div>
-            <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-emerald-900/5 rounded-2xl -z-20"></div>
+            <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-brand-100 rounded-2xl -z-20"></div>
 
-            <div class="relative overflow-hidden rounded-2xl shadow-2xl bg-slate-950 aspect-video ring-1 ring-black/5">
+            <div class="relative overflow-hidden rounded-2xl shadow-sm bg-slate-100 aspect-video ring-1 ring-slate-200">
               <video 
                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-102" 
                 controls 
@@ -102,7 +90,7 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
               
               <div class="absolute inset-0 flex items-center justify-center bg-slate-950/20 group-hover:bg-slate-950/10 transition-colors pointer-events-none">
                 <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-2xl backdrop-blur-sm group-hover:scale-110 transition-all duration-300">
-                  <div class="w-0 h-0 border-t-[10px] border-t-transparent border-l-[16px] border-l-emerald-900 border-b-[10px] border-b-transparent ml-1"></div>
+                  <div class="w-0 h-0 border-t-[10px] border-t-transparent border-l-[16px] border-l-brand-600 border-b-[10px] border-b-transparent ml-1"></div>
                 </div>
               </div>
             </div>
@@ -125,13 +113,13 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
     <div class="max-w-7xl mx-auto px-6 md:px-12">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
 
-        <div class="group flex flex-col  backdrop-blur-md rounded-2xl p-8 shadow-sm  transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="group flex flex-col  backdrop-blur-md rounded-2xl p-8 shadow-sm bg-blue-900/30 border border-blue-900/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
           <h3 class="text-xl font-bold text-slate-800 text-center mb-6 min-h-[40px] flex items-center justify-center">
             From Vice-Principal's Desk
           </h3>
 
           <div class="relative mx-auto mb-6">
-            <div class="absolute inset-0 rounded-full border-2 border-dashed border-emerald-900/40 scale-105 group-hover:rotate-180 transition-transform duration-1000"></div>
+            <div class="absolute inset-0 rounded-full border-2 border-dashed border-brand-300/60 scale-105 group-hover:rotate-180 transition-transform duration-1000"></div>
             <img
               src="/assets/Vice.jpg"
               alt="Vice Principal"
@@ -146,7 +134,7 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
           </div>
 
           <div class="mt-6 pt-4 border-t border-slate-50 text-center">
-            <a href="#" class="inline-flex items-center text-xs font-bold tracking-widest text-emerald-900 hover:text-[#007d3c] transition-colors uppercase">
+            <a href="#" class="inline-flex items-center text-xs font-bold tracking-widest text-slate-800 hover:text-[#007d3c] transition-colors uppercase">
               Read Message
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -155,8 +143,8 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
           </div>
         </div>
 
-        <div class="group flex flex-col  backdrop-blur-md rounded-2xl p-8 shadow-md border-t-4 border-t-emerald-900  0 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 relative">
-          <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-900 text-white text-[10px] px-4 py-1 rounded-full font-bold uppercase tracking-widest shadow-sm">
+        <div class="group flex flex-col  backdrop-blur-md rounded-2xl p-8 shadow-md border-t-4 border-t-brand-600 bg-blue-900/30 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 relative">
+          <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-600 text-white text-[10px] px-4 py-1 rounded-full font-bold uppercase tracking-widest shadow-sm">
             Head of College
           </span>
           
@@ -165,7 +153,7 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
           </h3>
 
           <div class="relative mx-auto mb-6">
-            <div class="absolute inset-0 rounded-full border-2 border-dashed border-emerald-900/60 scale-105 group-hover:rotate-90 transition-transform duration-700"></div>
+            <div class="absolute inset-0 rounded-full border-2 border-dashed border-brand-300 scale-105 group-hover:rotate-90 transition-transform duration-700"></div>
             <img
               src="/assets/principal.jpg"
               alt="Principal"
@@ -180,7 +168,7 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
           </div>
 
           <div class="mt-6 pt-4 border-t border-slate-50 text-center">
-            <a href="#" class="inline-flex items-center text-xs font-bold tracking-widest text-emerald-900 hover:text-[#007d3c] transition-colors uppercase">
+            <a href="#" class="inline-flex items-center text-xs font-bold tracking-widest text-slate-800 hover:text-[#007d3c] transition-colors uppercase">
               Read Message
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -189,13 +177,13 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
           </div>
         </div>
 
-        <div class="group flex flex-col  backdrop-blur-md rounded-2xl p-8 shadow-sm  transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="group flex flex-col  backdrop-blur-md rounded-2xl p-8 shadow-sm bg-blue-900/30 border border-blue-900/20 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
           <h3 class="text-xl font-bold text-slate-800 text-center mb-6 min-h-[40px] flex items-center justify-center">
             From Chairman's Desk
           </h3>
 
           <div class="relative mx-auto mb-6">
-            <div class="absolute inset-0 rounded-full border-2 border-dashed border-emerald-900/40 scale-105 group-hover:-rotate-180 transition-transform duration-1000"></div>
+            <div class="absolute inset-0 rounded-full border-2 border-dashed border-brand-300/60 scale-105 group-hover:-rotate-180 transition-transform duration-1000"></div>
             <img
               src="/assets/Chairman.jpg"
               alt="Chairman"
@@ -210,7 +198,7 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
           </div>
 
           <div class="mt-6 pt-4 border-t border-slate-50 text-center">
-            <a href="#" class="inline-flex items-center text-xs font-bold tracking-widest text-emerald-900 hover:text-[#007d3c] transition-colors uppercase">
+            <a href="#" class="inline-flex items-center text-xs font-bold tracking-widest text-slate-800 hover:text-[#007d3c] transition-colors uppercase">
               Read Message
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -236,46 +224,46 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         
-        <div class="group relative overflow-hidden rounded-2xl bg-slate-950 shadow-md transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
+        <div class="group relative overflow-hidden rounded-2xl bg-blue-900/30 shadow-md ring-1 ring-blue-900/20 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
           <div class="aspect-[4/5] w-full overflow-hidden">
             <img src="/assets/blog1.jpg" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-75" alt="Academic Award">
           </div>
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-blue-900/60 via-slate-950/30 to-transparent"></div>
           <div class="absolute bottom-0 left-0 p-6 w-full">
-            <span class="mb-2 inline-block rounded-full bg-emerald-900 px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white">Excellence</span>
+            <span class="mb-2 inline-block rounded-full bg-white px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-700">Excellence</span>
             <h3 class="text-2xl font-bold leading-tight text-white tracking-wide">Academic<br>Award</h3>
           </div>
         </div>
 
-        <div class="group relative overflow-hidden rounded-2xl bg-slate-950 shadow-md transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
+        <div class="group relative overflow-hidden rounded-2xl bg-blue-900/30 shadow-md ring-1 ring-blue-900/20 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
           <div class="aspect-[4/5] w-full overflow-hidden">
             <img src="/assets/blog2.jpg" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-75" alt="Photography Club">
           </div>
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-blue-900/60 via-slate-950/30 to-transparent"></div>
           <div class="absolute bottom-0 left-0 p-6 w-full">
-            <span class="mb-2 inline-block rounded-full bg-emerald-900 px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white">Creative</span>
+            <span class="mb-2 inline-block rounded-full bg-white px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-700">Creative</span>
             <h3 class="text-2xl font-bold leading-tight text-white tracking-wide">Photography<br>Club</h3>
           </div>
         </div>
 
-        <div class="group relative overflow-hidden rounded-2xl bg-slate-950 shadow-md transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
+        <div class="group relative overflow-hidden rounded-2xl bg-blue-900/30 shadow-md ring-1 ring-blue-900/20 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
           <div class="aspect-[4/5] w-full overflow-hidden">
             <img src="/assets/blog3.jpg" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-75" alt="Life At PMC">
           </div>
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-blue-900/60 via-slate-950/30 to-transparent"></div>
           <div class="absolute bottom-0 left-0 p-6 w-full">
-            <span class="mb-2 inline-block rounded-full bg-emerald-900 px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white">Campus</span>
+            <span class="mb-2 inline-block rounded-full bg-white px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-700">Campus</span>
             <h3 class="text-2xl font-bold leading-tight text-white tracking-wide">Life At<br>PMC</h3>
           </div>
         </div>
 
-        <div class="group relative overflow-hidden rounded-2xl bg-slate-950 shadow-md transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
+        <div class="group relative overflow-hidden rounded-2xl bg-blue-900/30 shadow-md ring-1 ring-blue-900/20 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
           <div class="aspect-[4/5] w-full overflow-hidden">
             <img src="/assets/blog4.jpg" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-75" alt="Hospital">
           </div>
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-blue-900/60 via-slate-950/30 to-transparent"></div>
           <div class="absolute bottom-0 left-0 p-6 w-full">
-            <span class="mb-2 inline-block rounded-full bg-emerald-900 px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white">Healthcare</span>
+            <span class="mb-2 inline-block rounded-full bg-white px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-700">Healthcare</span>
             <h3 class="text-2xl font-bold leading-tight text-white tracking-wide">Modern<br>Hospital</h3>
           </div>
         </div>
@@ -300,20 +288,20 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
     <div class="max-w-7xl mx-auto px-6 md:px-12">
      
 
-      <div class=" backdrop-blur-md rounded-2xl shadow-sm   overflow-hidden">
+      <div class="bg-blue-900/30 backdrop-blur-md rounded-2xl shadow-sm border border-blue-900/20 overflow-hidden">
         
 
         <div class="divide-y ">
           
-          <a href="#" class="grid grid-cols-12 items-center px-6 py-4 hover:bg-emerald-900/5 transition-colors group">
+          <a href="#" class="grid grid-cols-12 items-center px-6 py-4 hover:bg-brand-100 transition-colors group">
             <div class="col-span-8 md:col-span-7 flex items-center gap-4">
-              <div class="p-2.5 bg-slate-100/80 rounded-xl text-emerald-900 group-hover:bg-emerald-900 group-hover:text-white transition-colors">
+              <div class="p-2.5 bg-slate-100/80 rounded-xl text-slate-800 group-hover:bg-brand-600 group-hover:text-white transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
               <div>
-                <span class="block font-semibold text-slate-800 group-hover:text-emerald-900 transition-colors text-base md:text-lg">Notice (DU Registration Fee)</span>
+                <span class="block font-semibold text-slate-800 group-hover:text-slate-800 transition-colors text-base md:text-lg">Notice (DU Registration Fee)</span>
                 <span class="md:hidden text-xs text-slate-900">267.18 KB</span>
               </div>
             </div>
@@ -341,15 +329,15 @@ const HTML = `<div class="fixed inset-0 z-0 pointer-events-none">
             </div>
           </a>
 
-          <a href="#" class="grid grid-cols-12 items-center px-6 py-4 hover:bg-emerald-900/5 transition-colors group">
+          <a href="#" class="grid grid-cols-12 items-center px-6 py-4 hover:bg-brand-100 transition-colors group">
             <div class="col-span-8 md:col-span-7 flex items-center gap-4">
-              <div class="p-2.5 bg-slate-100 rounded-xl text-emerald-900 group-hover:bg-emerald-900 group-hover:text-white transition-colors">
+              <div class="p-2.5 bg-slate-100 rounded-xl text-slate-800 group-hover:bg-brand-600 group-hover:text-white transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
               <div>
-                <span class="block font-semibold text-slate-800 group-hover:text-emerald-900 transition-colors text-base md:text-lg">Notice for Foreign Students</span>
+                <span class="block font-semibold text-slate-800 group-hover:text-slate-800 transition-colors text-base md:text-lg">Notice for Foreign Students</span>
                 <span class="md:hidden text-xs text-slate-900">201.79 KB</span>
               </div>
             </div>

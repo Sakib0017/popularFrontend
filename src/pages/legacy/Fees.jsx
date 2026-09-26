@@ -11,10 +11,10 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
   </div>
 
   <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
-      <div class="max-w-2xl border-l-4 border-emerald-600 pl-6 md:pl-10">
-          <span class="text-emerald-700 font-bold tracking-widest uppercase text-sm mb-2 block">Financial Information</span>
+      <div class="max-w-2xl border-l-4 border-brand-300 pl-6 md:pl-10">
+          <span class="text-brand-600 font-bold tracking-widest uppercase text-sm mb-2 block">Financial Information</span>
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight">
-              College <span class="text-emerald-600">Fees</span>
+              College <span class="text-brand-600">Fees</span>
           </h1>
           <p class="mt-6 text-lg md:text-xl text-slate-700 leading-relaxed font-medium">
               Transparent and structured fee policies designed to support high-quality medical education and campus infrastructure.
@@ -31,7 +31,7 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
               <h2 class="text-3xl font-bold text-slate-800 mb-6">Fee Structure & Payment</h2>
               <div class="space-y-4 text-slate-600 text-lg leading-relaxed">
                   <p>
-                      The fee structure for the MBBS course is determined in accordance with the regulations set by the <span class="text-emerald-700 font-semibold">Ministry of Health and Family Welfare</span> and the relevant governing authorities.
+                      The fee structure for the MBBS course is determined in accordance with the regulations set by the <span class="text-brand-600 font-semibold">Ministry of Health and Family Welfare</span> and the relevant governing authorities.
                   </p>
                   <p>
                       All students are required to clear their dues within the stipulated deadlines to ensure uninterrupted access to academic and residential facilities. Detailed schedules for tuition and other administrative fees are provided at the start of each session.
@@ -40,17 +40,17 @@ const HTML = `<section class="relative h-[50vh] min-h-[400px] flex items-center 
               
               <div class="mt-8 flex flex-wrap gap-4">
                   <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm border border-slate-200">
-                      <span class="w-3 h-3 bg-emerald-500 rounded-full mr-2"></span>
+                      <span class="w-3 h-3 bg-brand-300 rounded-full mr-2"></span>
                       <span class="text-sm font-bold text-slate-700">Official Bank Deposits Only</span>
                   </div>
                   <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm border border-slate-200">
-                      <span class="w-3 h-3 bg-emerald-500 rounded-full mr-2"></span>
+                      <span class="w-3 h-3 bg-brand-300 rounded-full mr-2"></span>
                       <span class="text-sm font-bold text-slate-700">Detailed Receipt Provided</span>
                   </div>
               </div>
 
               <div class="mt-10">
-                  <div class="inline-flex items-center text-emerald-700 font-bold hover:text-emerald-800 transition-colors cursor-pointer group">
+                  <div class="inline-flex items-center text-brand-600 font-bold hover:text-emerald-800 transition-colors cursor-pointer group">
                       <span>View Detailed Fee Schedule</span>
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />

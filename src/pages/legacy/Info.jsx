@@ -10,27 +10,27 @@ const HTML = `<div class="max-w-7xl mx-auto my-10 px-4">
        
   
         <tbody class="bg-white divide-y divide-gray-200">
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">ভর্তির জন্য অনুমোদিত আসন সংখ্যা</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">১০৫</td>
            
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">সর্বমোট ছাত্র/ছাত্রীর সংখ্যা</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৫১</td>
            
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">হাসপাতালের শয্যা সংখ্যা</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬০০</td>
            
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">Free Bed এর সংখ্যা</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৬৬</td>
            
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">বেড অকুপেন্সী (আনুমানিক)</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">৮০%</td>
             
@@ -49,17 +49,17 @@ const HTML = `<div class="max-w-7xl mx-auto my-10 px-4">
        
   
         <tbody class="bg-white divide-y divide-gray-200">
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">অনুমোদনের সেশন</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700"> সরকার কর্তৃক সর্বশেষ পরিদর্শণ: ২০২৩ অনুমোদনের সেশন:  ২০২২-২০২৩ সেশন</td>
             
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">বিএমএন্ডডিসি কর্তৃক একাডেমিক অনুমোদনের সেশন</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700"> বিএমএন্ডডিসি কর্তৃক পরিদর্শণ: ২০২৩ অনুমোদনের সেশন:  ২০১৯-২০২০ সেশন</td>
             
           </tr>
-          <tr class="hover:bg-blue-50 transition-colors">
+          <tr class="hover:bg-brand-100 transition-colors">
             <td class="px-6 py-4 whitespace-nowrap  text-center font-medium text-gray-900">ঢকা বিশ্ববিদ্যালয় কর্তৃক একাডেমিক অনুমোদনের সেশন</td>
             <td class="px-6 py-4 whitespace-nowrap  text-center text-gray-700">ঢাকা বিশ্ববিদ্যালয় কর্তৃক পরিদর্শণ: ২০২৩  অনুমোদনের সেশন:  ২০২২-২০২৩ সেশন ।</td>
             
